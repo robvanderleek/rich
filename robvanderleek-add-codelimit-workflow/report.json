@@ -1,0 +1,2157 @@
+{
+  "version": "0.16.0",
+  "uuid": "8145a439-576e-4aef-bf33-e5deacf6f8f4",
+  "timestamp": "2024-12-24T09:05:55+00:00",
+  "root": "/github/workspace",
+  "repository": {
+    "owner": "robvanderleek",
+    "name": "rich",
+    "branch": "HEAD"
+  },
+  "codebase": {
+    "totals": {
+      "Python": {
+        "files": 124,
+        "lines_of_code": 12002,
+        "functions": 974,
+        "hard_to_maintain": 68,
+        "unmaintainable": 20
+      }
+    },
+    "tree": {
+      "./": {
+        "entries": [
+          "setup.py",
+          "docs/",
+          "benchmarks/",
+          "rich/",
+          "examples/",
+          "tools/"
+        ],
+        "profile": [4107, 3236, 2744, 1915]
+      },
+      "docs/source/": {
+        "entries": [
+          "conf.py"
+        ],
+        "profile": [0, 0, 0, 0]
+      },
+      "docs/": {
+        "entries": [
+          "source/"
+        ],
+        "profile": [0, 0, 0, 0]
+      },
+      "benchmarks/": {
+        "entries": [
+          "snippets.py",
+          "__init__.py",
+          "benchmarks.py"
+        ],
+        "profile": [122, 23, 0, 0]
+      },
+      "rich/": {
+        "entries": [
+          "constrain.py",
+          "_emoji_replace.py",
+          "live_render.py",
+          "highlighter.py",
+          "errors.py",
+          "_export_format.py",
+          "region.py",
+          "diagnose.py",
+          "console.py",
+          "_emoji_codes.py",
+          "_stack.py",
+          "segment.py",
+          "text.py",
+          "_null_file.py",
+          "_inspect.py",
+          "progress_bar.py",
+          "default_styles.py",
+          "styled.py",
+          "measure.py",
+          "repr.py",
+          "columns.py",
+          "pretty.py",
+          "cells.py",
+          "color.py",
+          "_pick.py",
+          "_windows_renderer.py",
+          "_palettes.py",
+          "panel.py",
+          "theme.py",
+          "json.py",
+          "tree.py",
+          "_fileno.py",
+          "progress.py",
+          "bar.py",
+          "jupyter.py",
+          "_cell_widths.py",
+          "ansi.py",
+          "prompt.py",
+          "table.py",
+          "__init__.py",
+          "markup.py",
+          "box.py",
+          "syntax.py",
+          "color_triplet.py",
+          "live.py",
+          "logging.py",
+          "palette.py",
+          "filesize.py",
+          "markdown.py",
+          "containers.py",
+          "_spinners.py",
+          "terminal_theme.py",
+          "_windows.py",
+          "emoji.py",
+          "_timer.py",
+          "_extension.py",
+          "pager.py",
+          "_win32_console.py",
+          "protocol.py",
+          "align.py",
+          "padding.py",
+          "traceback.py",
+          "__main__.py",
+          "_loop.py",
+          "rule.py",
+          "style.py",
+          "themes.py",
+          "layout.py",
+          "_wrap.py",
+          "spinner.py",
+          "screen.py",
+          "control.py",
+          "_ratio.py",
+          "_log_render.py",
+          "status.py",
+          "file_proxy.py",
+          "abc.py",
+          "scope.py"
+        ],
+        "profile": [3830, 3107, 2677, 1915]
+      },
+      "examples/": {
+        "entries": [
+          "highlighter.py",
+          "group2.py",
+          "overflow.py",
+          "group.py",
+          "bars.py",
+          "repr.py",
+          "columns.py",
+          "save_table_svg.py",
+          "downloader.py",
+          "export.py",
+          "tree.py",
+          "print_calendar.py",
+          "cp_progress.py",
+          "link.py",
+          "attrs.py",
+          "spinners.py",
+          "table.py",
+          "listdir.py",
+          "log.py",
+          "exception.py",
+          "fullscreen.py",
+          "dynamic_progress.py",
+          "table_movie.py",
+          "recursive_error.py",
+          "rainbow.py",
+          "justify.py",
+          "padding.py",
+          "justify2.py",
+          "layout.py",
+          "screen.py",
+          "jobs.py",
+          "live_progress.py",
+          "suppress.py",
+          "file_progress.py",
+          "status.py",
+          "top_lite_simulator.py"
+        ],
+        "profile": [140, 66, 67, 0]
+      },
+      "tools/": {
+        "entries": [
+          "profile_divide.py",
+          "make_terminal_widths.py",
+          "make_emoji.py",
+          "profile_pretty.py",
+          "stress_test_pretty.py"
+        ],
+        "profile": [15, 40, 0, 0]
+      }
+    },
+    "files": {
+      "setup.py": {
+        "checksum": "471f06e4026c32b94b41bf8413b9a1de",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "docs/source/conf.py": {
+        "checksum": "6c79d75129caf394aef7004646b0cdaf",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "benchmarks/snippets.py": {
+        "checksum": "279b2e964cb96fcdf7bcbb5dcd7ab5e3",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "benchmarks/__init__.py": {
+        "checksum": "d41d8cd98f00b204e9800998ecf8427e",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "benchmarks/benchmarks.py": {
+        "checksum": "b041853070e2f77950234faae34ff573",
+        "language": "Python",
+        "loc": 145,
+        "profile": [122, 23, 0, 0],
+        "measurements": [
+          {"unit_name": "setup", "start": {"line": 15, "column": 5}, "end": {"line": 20, "column": 54}, "value": 6},
+          {"unit_name": "time_wrapping", "start": {"line": 22, "column": 5}, "end": {"line": 23, "column": 58}, "value": 2},
+          {"unit_name": "time_indent_guides", "start": {"line": 25, "column": 5}, "end": {"line": 26, "column": 59}, "value": 2},
+          {"unit_name": "time_fit", "start": {"line": 28, "column": 5}, "end": {"line": 29, "column": 43}, "value": 2},
+          {"unit_name": "time_split", "start": {"line": 31, "column": 5}, "end": {"line": 32, "column": 26}, "value": 2},
+          {"unit_name": "time_divide", "start": {"line": 34, "column": 5}, "end": {"line": 35, "column": 61}, "value": 2},
+          {"unit_name": "time_align_center", "start": {"line": 37, "column": 5}, "end": {"line": 38, "column": 83}, "value": 2},
+          {"unit_name": "time_render", "start": {"line": 40, "column": 5}, "end": {"line": 41, "column": 45}, "value": 2},
+          {"unit_name": "time_wrapping_unicode_heavy", "start": {"line": 43, "column": 5}, "end": {"line": 44, "column": 82}, "value": 2},
+          {"unit_name": "time_fit_unicode_heavy", "start": {"line": 46, "column": 5}, "end": {"line": 47, "column": 50}, "value": 2},
+          {"unit_name": "time_split_unicode_heavy", "start": {"line": 49, "column": 5}, "end": {"line": 50, "column": 50}, "value": 2},
+          {"unit_name": "time_divide_unicode_heavy", "start": {"line": 52, "column": 5}, "end": {"line": 53, "column": 44}, "value": 2},
+          {"unit_name": "time_align_center_unicode_heavy", "start": {"line": 55, "column": 5}, "end": {"line": 58, "column": 10}, "value": 4},
+          {"unit_name": "time_render_unicode_heavy", "start": {"line": 60, "column": 5}, "end": {"line": 61, "column": 69}, "value": 2},
+          {"unit_name": "setup", "start": {"line": 65, "column": 5}, "end": {"line": 68, "column": 10}, "value": 4},
+          {"unit_name": "time_wrapping_unicode_heavy_warm_cache", "start": {"line": 70, "column": 5}, "end": {"line": 72, "column": 86}, "value": 3},
+          {"unit_name": "setup", "start": {"line": 76, "column": 5}, "end": {"line": 82, "column": 10}, "value": 7},
+          {"unit_name": "time_text_thin_terminal_heavy_wrapping", "start": {"line": 84, "column": 5}, "end": {"line": 85, "column": 35}, "value": 2},
+          {"unit_name": "time_text_thin_terminal_medium_wrapping", "start": {"line": 87, "column": 5}, "end": {"line": 88, "column": 35}, "value": 2},
+          {"unit_name": "time_text_wide_terminal_no_wrapping", "start": {"line": 90, "column": 5}, "end": {"line": 91, "column": 36}, "value": 2},
+          {"unit_name": "_print_with_width", "start": {"line": 93, "column": 5}, "end": {"line": 94, "column": 47}, "value": 2},
+          {"unit_name": "time_table_no_wrapping", "start": {"line": 98, "column": 5}, "end": {"line": 99, "column": 37}, "value": 2},
+          {"unit_name": "time_table_heavy_wrapping", "start": {"line": 101, "column": 5}, "end": {"line": 102, "column": 36}, "value": 2},
+          {"unit_name": "_print_table", "start": {"line": 104, "column": 5}, "end": {"line": 126, "column": 29}, "value": 23},
+          {"unit_name": "setup", "start": {"line": 130, "column": 5}, "end": {"line": 133, "column": 10}, "value": 4},
+          {"unit_name": "time_pretty", "start": {"line": 135, "column": 5}, "end": {"line": 137, "column": 35}, "value": 3},
+          {"unit_name": "time_pretty_indent_guides", "start": {"line": 139, "column": 5}, "end": {"line": 141, "column": 35}, "value": 3},
+          {"unit_name": "time_pretty_justify_center", "start": {"line": 143, "column": 5}, "end": {"line": 145, "column": 35}, "value": 3},
+          {"unit_name": "setup", "start": {"line": 149, "column": 5}, "end": {"line": 154, "column": 55}, "value": 6},
+          {"unit_name": "time_parse_ansi", "start": {"line": 156, "column": 5}, "end": {"line": 157, "column": 35}, "value": 2},
+          {"unit_name": "time_parse_hex", "start": {"line": 159, "column": 5}, "end": {"line": 160, "column": 42}, "value": 2},
+          {"unit_name": "time_parse_mixed_complex_style", "start": {"line": 162, "column": 5}, "end": {"line": 163, "column": 66}, "value": 2},
+          {"unit_name": "time_style_add", "start": {"line": 165, "column": 5}, "end": {"line": 166, "column": 34}, "value": 2},
+          {"unit_name": "setup", "start": {"line": 170, "column": 5}, "end": {"line": 174, "column": 44}, "value": 5},
+          {"unit_name": "time_downgrade_to_eight_bit", "start": {"line": 176, "column": 5}, "end": {"line": 177, "column": 52}, "value": 2},
+          {"unit_name": "time_downgrade_to_standard", "start": {"line": 179, "column": 5}, "end": {"line": 180, "column": 51}, "value": 2},
+          {"unit_name": "time_downgrade_to_windows", "start": {"line": 182, "column": 5}, "end": {"line": 183, "column": 50}, "value": 2},
+          {"unit_name": "setup", "start": {"line": 187, "column": 5}, "end": {"line": 195, "column": 50}, "value": 8},
+          {"unit_name": "time_downgrade_to_eight_bit", "start": {"line": 197, "column": 5}, "end": {"line": 198, "column": 52}, "value": 2},
+          {"unit_name": "time_downgrade_to_standard", "start": {"line": 200, "column": 5}, "end": {"line": 201, "column": 51}, "value": 2},
+          {"unit_name": "time_downgrade_to_windows", "start": {"line": 203, "column": 5}, "end": {"line": 204, "column": 50}, "value": 2},
+          {"unit_name": "setup", "start": {"line": 208, "column": 5}, "end": {"line": 215, "column": 14}, "value": 8},
+          {"unit_name": "test_divide_complex", "start": {"line": 217, "column": 5}, "end": {"line": 218, "column": 72}, "value": 2}
+        ]
+      },
+      "rich/constrain.py": {
+        "checksum": "cef54cefaa299620f5784fd7767f42e5",
+        "language": "Python",
+        "loc": 18,
+        "profile": [18, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 18, "column": 5}, "end": {"line": 20, "column": 27}, "value": 3},
+          {"unit_name": "__rich_console__", "start": {"line": 22, "column": 5}, "end": {"line": 29, "column": 70}, "value": 8},
+          {"unit_name": "__rich_measure__", "start": {"line": 31, "column": 5}, "end": {"line": 37, "column": 27}, "value": 7}
+        ]
+      },
+      "rich/_emoji_replace.py": {
+        "checksum": "aa906731d3f9ee1af861a15115e9c904",
+        "language": "Python",
+        "loc": 20,
+        "profile": [20, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "_emoji_replace", "start": {"line": 12, "column": 1}, "end": {"line": 32, "column": 40}, "value": 12},
+          {"unit_name": "do_replace", "start": {"line": 23, "column": 5}, "end": {"line": 30, "column": 30}, "value": 8}
+        ]
+      },
+      "rich/live_render.py": {
+        "checksum": "1d2903a1a30a9fe965efc49278e1581d",
+        "language": "Python",
+        "loc": 67,
+        "profile": [22, 45, 0, 0],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 28, "column": 5}, "end": {"line": 37, "column": 54}, "value": 10},
+          {"unit_name": "set_renderable", "start": {"line": 39, "column": 5}, "end": {"line": 45, "column": 37}, "value": 3},
+          {"unit_name": "position_cursor", "start": {"line": 47, "column": 5}, "end": {"line": 66, "column": 25}, "value": 16},
+          {"unit_name": "restore_cursor", "start": {"line": 68, "column": 5}, "end": {"line": 80, "column": 25}, "value": 9},
+          {"unit_name": "__rich_console__", "start": {"line": 82, "column": 5}, "end": {"line": 112, "column": 31}, "value": 29}
+        ]
+      },
+      "rich/highlighter.py": {
+        "checksum": "4873a5946938178bc47def72f6021bb3",
+        "language": "Python",
+        "loc": 38,
+        "profile": [22, 16, 0, 0],
+        "measurements": [
+          {"unit_name": "_combine_regex", "start": {"line": 8, "column": 1}, "end": {"line": 14, "column": 29}, "value": 3},
+          {"unit_name": "__call__", "start": {"line": 20, "column": 5}, "end": {"line": 39, "column": 30}, "value": 10},
+          {"unit_name": "highlight", "start": {"line": 42, "column": 5}, "end": {"line": 43, "column": 126}, "value": 2},
+          {"unit_name": "highlight", "start": {"line": 57, "column": 5}, "end": {"line": 58, "column": 28}, "value": 2},
+          {"unit_name": "highlight", "start": {"line": 67, "column": 5}, "end": {"line": 77, "column": 72}, "value": 5},
+          {"unit_name": "highlight", "start": {"line": 123, "column": 5}, "end": {"line": 140, "column": 22}, "value": 16}
+        ]
+      },
+      "rich/errors.py": {
+        "checksum": "b7ed359477b4d6beb67ce0e6151da181",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "rich/_export_format.py": {
+        "checksum": "d85bc9e9a2089271af0b0a23d06c2304",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "rich/region.py": {
+        "checksum": "2b7a3fc13dcde9deca6d3a7217b45de8",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "rich/diagnose.py": {
+        "checksum": "e9fc9587b1bdd20e41eb07f9623b6697",
+        "language": "Python",
+        "loc": 22,
+        "profile": [0, 22, 0, 0],
+        "measurements": [
+          {"unit_name": "report", "start": {"line": 10, "column": 1}, "end": {"line": 33, "column": 53}, "value": 22}
+        ]
+      },
+      "rich/console.py": {
+        "checksum": "42d5a117d13ff631b6127c73c4cd1f11",
+        "language": "Python",
+        "loc": 1518,
+        "profile": [432, 326, 403, 357],
+        "measurements": [
+          {"unit_name": "ascii_only", "start": {"line": 155, "column": 5}, "end": {"line": 157, "column": 51}, "value": 3},
+          {"unit_name": "copy", "start": {"line": 159, "column": 5}, "end": {"line": 167, "column": 23}, "value": 5},
+          {"unit_name": "update", "start": {"line": 169, "column": 5}, "end": {"line": 204, "column": 23}, "value": 36},
+          {"unit_name": "update_width", "start": {"line": 206, "column": 5}, "end": {"line": 217, "column": 23}, "value": 5},
+          {"unit_name": "update_height", "start": {"line": 219, "column": 5}, "end": {"line": 230, "column": 23}, "value": 5},
+          {"unit_name": "reset_height", "start": {"line": 232, "column": 5}, "end": {"line": 240, "column": 23}, "value": 5},
+          {"unit_name": "update_dimensions", "start": {"line": 242, "column": 5}, "end": {"line": 255, "column": 23}, "value": 6},
+          {"unit_name": "__rich__", "start": {"line": 262, "column": 5}, "end": {"line": 265, "column": 12}, "value": 4},
+          {"unit_name": "__rich_console__", "start": {"line": 272, "column": 5}, "end": {"line": 275, "column": 12}, "value": 4},
+          {"unit_name": "__init__", "start": {"line": 295, "column": 5}, "end": {"line": 296, "column": 27}, "value": 2},
+          {"unit_name": "__rich_console__", "start": {"line": 298, "column": 5}, "end": {"line": 301, "column": 41}, "value": 4},
+          {"unit_name": "__init__", "start": {"line": 307, "column": 5}, "end": {"line": 310, "column": 19}, "value": 4},
+          {"unit_name": "__rich_console__", "start": {"line": 312, "column": 5}, "end": {"line": 319, "column": 28}, "value": 8},
+          {"unit_name": "__init__", "start": {"line": 330, "column": 5}, "end": {"line": 332, "column": 43}, "value": 3},
+          {"unit_name": "__enter__", "start": {"line": 334, "column": 5}, "end": {"line": 336, "column": 20}, "value": 3},
+          {"unit_name": "__exit__", "start": {"line": 338, "column": 5}, "end": {"line": 344, "column": 51}, "value": 7},
+          {"unit_name": "get", "start": {"line": 346, "column": 5}, "end": {"line": 352, "column": 28}, "value": 7},
+          {"unit_name": "__init__", "start": {"line": 358, "column": 5}, "end": {"line": 361, "column": 31}, "value": 4},
+          {"unit_name": "__enter__", "start": {"line": 363, "column": 5}, "end": {"line": 365, "column": 20}, "value": 3},
+          {"unit_name": "__exit__", "start": {"line": 367, "column": 5}, "end": {"line": 373, "column": 33}, "value": 7},
+          {"unit_name": "__init__", "start": {"line": 379, "column": 5}, "end": {"line": 389, "column": 27}, "value": 11},
+          {"unit_name": "__enter__", "start": {"line": 391, "column": 5}, "end": {"line": 393, "column": 20}, "value": 3},
+          {"unit_name": "__exit__", "start": {"line": 395, "column": 5}, "end": {"line": 412, "column": 37}, "value": 18},
+          {"unit_name": "__init__", "start": {"line": 418, "column": 5}, "end": {"line": 424, "column": 30}, "value": 7},
+          {"unit_name": "update", "start": {"line": 426, "column": 5}, "end": {"line": 442, "column": 48}, "value": 11},
+          {"unit_name": "__enter__", "start": {"line": 444, "column": 5}, "end": {"line": 448, "column": 20}, "value": 5},
+          {"unit_name": "__exit__", "start": {"line": 450, "column": 5}, "end": {"line": 459, "column": 47}, "value": 10},
+          {"unit_name": "__init__", "start": {"line": 470, "column": 5}, "end": {"line": 473, "column": 60}, "value": 4},
+          {"unit_name": "renderables", "start": {"line": 476, "column": 5}, "end": {"line": 479, "column": 28}, "value": 4},
+          {"unit_name": "__rich_measure__", "start": {"line": 481, "column": 5}, "end": {"line": 487, "column": 69}, "value": 7},
+          {"unit_name": "__rich_console__", "start": {"line": 489, "column": 5}, "end": {"line": 492, "column": 36}, "value": 4},
+          {"unit_name": "group", "start": {"line": 495, "column": 1}, "end": {"line": 514, "column": 21}, "value": 4},
+          {"unit_name": "decorator", "start": {"line": 502, "column": 5}, "end": {"line": 512, "column": 24}, "value": 7},
+          {"unit_name": "_replace", "start": {"line": 508, "column": 9}, "end": {"line": 510, "column": 48}, "value": 3},
+          {"unit_name": "_is_jupyter", "start": {"line": 517, "column": 1}, "end": {"line": 534, "column": 21}, "value": 18},
+          {"unit_name": "process_renderables", "start": {"line": 560, "column": 5}, "end": {"line": 563, "column": 347}, "value": 4},
+          {"unit_name": "get_windows_console_features", "start": {"line": 578, "column": 1}, "end": {"line": 585, "column": 37}, "value": 7},
+          {"unit_name": "detect_legacy_windows", "start": {"line": 588, "column": 1}, "end": {"line": 590, "column": 61}, "value": 3},
+          {"unit_name": "__init__", "start": {"line": 631, "column": 5}, "end": {"line": 753, "column": 36}, "value": 112},
+          {"unit_name": "__repr__", "start": {"line": 755, "column": 5}, "end": {"line": 756, "column": 70}, "value": 2},
+          {"unit_name": "file", "start": {"line": 759, "column": 5}, "end": {"line": 765, "column": 20}, "value": 7},
+          {"unit_name": "file", "start": {"line": 768, "column": 5}, "end": {"line": 770, "column": 30}, "value": 3},
+          {"unit_name": "_buffer", "start": {"line": 773, "column": 5}, "end": {"line": 775, "column": 42}, "value": 3},
+          {"unit_name": "_buffer_index", "start": {"line": 778, "column": 5}, "end": {"line": 780, "column": 48}, "value": 3},
+          {"unit_name": "_buffer_index", "start": {"line": 783, "column": 5}, "end": {"line": 784, "column": 49}, "value": 2},
+          {"unit_name": "_theme_stack", "start": {"line": 787, "column": 5}, "end": {"line": 789, "column": 47}, "value": 3},
+          {"unit_name": "_detect_color_system", "start": {"line": 791, "column": 5}, "end": {"line": 813, "column": 32}, "value": 23},
+          {"unit_name": "_enter_buffer", "start": {"line": 815, "column": 5}, "end": {"line": 817, "column": 32}, "value": 3},
+          {"unit_name": "_exit_buffer", "start": {"line": 819, "column": 5}, "end": {"line": 822, "column": 29}, "value": 4},
+          {"unit_name": "set_live", "start": {"line": 824, "column": 5}, "end": {"line": 836, "column": 30}, "value": 6},
+          {"unit_name": "clear_live", "start": {"line": 838, "column": 5}, "end": {"line": 841, "column": 30}, "value": 4},
+          {"unit_name": "push_render_hook", "start": {"line": 843, "column": 5}, "end": {"line": 850, "column": 44}, "value": 4},
+          {"unit_name": "pop_render_hook", "start": {"line": 852, "column": 5}, "end": {"line": 855, "column": 37}, "value": 4},
+          {"unit_name": "__enter__", "start": {"line": 857, "column": 5}, "end": {"line": 860, "column": 20}, "value": 4},
+          {"unit_name": "__exit__", "start": {"line": 862, "column": 5}, "end": {"line": 864, "column": 28}, "value": 3},
+          {"unit_name": "begin_capture", "start": {"line": 866, "column": 5}, "end": {"line": 868, "column": 29}, "value": 3},
+          {"unit_name": "end_capture", "start": {"line": 870, "column": 5}, "end": {"line": 879, "column": 29}, "value": 6},
+          {"unit_name": "push_theme", "start": {"line": 881, "column": 5}, "end": {"line": 890, "column": 61}, "value": 3},
+          {"unit_name": "pop_theme", "start": {"line": 892, "column": 5}, "end": {"line": 894, "column": 38}, "value": 3},
+          {"unit_name": "use_theme", "start": {"line": 896, "column": 5}, "end": {"line": 906, "column": 50}, "value": 3},
+          {"unit_name": "color_system", "start": {"line": 909, "column": 5}, "end": {"line": 919, "column": 24}, "value": 6},
+          {"unit_name": "encoding", "start": {"line": 922, "column": 5}, "end": {"line": 928, "column": 76}, "value": 3},
+          {"unit_name": "is_terminal", "start": {"line": 931, "column": 5}, "end": {"line": 964, "column": 25}, "value": 19},
+          {"unit_name": "is_dumb_terminal", "start": {"line": 967, "column": 5}, "end": {"line": 976, "column": 44}, "value": 5},
+          {"unit_name": "options", "start": {"line": 979, "column": 5}, "end": {"line": 989, "column": 10}, "value": 11},
+          {"unit_name": "size", "start": {"line": 992, "column": 5}, "end": {"line": 1030, "column": 10}, "value": 28},
+          {"unit_name": "size", "start": {"line": 1033, "column": 5}, "end": {"line": 1041, "column": 30}, "value": 5},
+          {"unit_name": "width", "start": {"line": 1044, "column": 5}, "end": {"line": 1050, "column": 31}, "value": 3},
+          {"unit_name": "width", "start": {"line": 1053, "column": 5}, "end": {"line": 1059, "column": 28}, "value": 3},
+          {"unit_name": "height", "start": {"line": 1062, "column": 5}, "end": {"line": 1068, "column": 32}, "value": 3},
+          {"unit_name": "height", "start": {"line": 1071, "column": 5}, "end": {"line": 1077, "column": 30}, "value": 3},
+          {"unit_name": "bell", "start": {"line": 1079, "column": 5}, "end": {"line": 1081, "column": 37}, "value": 3},
+          {"unit_name": "capture", "start": {"line": 1083, "column": 5}, "end": {"line": 1098, "column": 23}, "value": 4},
+          {"unit_name": "pager", "start": {"line": 1100, "column": 5}, "end": {"line": 1121, "column": 75}, "value": 5},
+          {"unit_name": "line", "start": {"line": 1123, "column": 5}, "end": {"line": 1131, "column": 35}, "value": 4},
+          {"unit_name": "clear", "start": {"line": 1133, "column": 5}, "end": {"line": 1142, "column": 42}, "value": 6},
+          {"unit_name": "status", "start": {"line": 1144, "column": 5}, "end": {"line": 1175, "column": 33}, "value": 20},
+          {"unit_name": "show_cursor", "start": {"line": 1177, "column": 5}, "end": {"line": 1186, "column": 21}, "value": 6},
+          {"unit_name": "set_alt_screen", "start": {"line": 1188, "column": 5}, "end": {"line": 1207, "column": 23}, "value": 8},
+          {"unit_name": "is_alt_screen", "start": {"line": 1210, "column": 5}, "end": {"line": 1216, "column": 35}, "value": 3},
+          {"unit_name": "set_window_title", "start": {"line": 1218, "column": 5}, "end": {"line": 1248, "column": 21}, "value": 6},
+          {"unit_name": "screen", "start": {"line": 1250, "column": 5}, "end": {"line": 1262, "column": 79}, "value": 5},
+          {"unit_name": "measure", "start": {"line": 1264, "column": 5}, "end": {"line": 1279, "column": 27}, "value": 6},
+          {"unit_name": "render", "start": {"line": 1281, "column": 5}, "end": {"line": 1330, "column": 64}, "value": 34},
+          {"unit_name": "render_lines", "start": {"line": 1332, "column": 5}, "end": {"line": 1394, "column": 25}, "value": 46},
+          {"unit_name": "render_str", "start": {"line": 1396, "column": 5}, "end": {"line": 1455, "column": 25}, "value": 42},
+          {"unit_name": "get_style", "start": {"line": 1457, "column": 5}, "end": {"line": 1485, "column": 24}, "value": 17},
+          {"unit_name": "_collect_renderables", "start": {"line": 1487, "column": 5}, "end": {"line": 1564, "column": 27}, "value": 51},
+          {"unit_name": "align_append", "start": {"line": 1520, "column": 13}, "end": {"line": 1521, "column": 71}, "value": 2},
+          {"unit_name": "check_text", "start": {"line": 1529, "column": 9}, "end": {"line": 1533, "column": 29}, "value": 5},
+          {"unit_name": "rule", "start": {"line": 1566, "column": 5}, "end": {"line": 1585, "column": 25}, "value": 12},
+          {"unit_name": "control", "start": {"line": 1587, "column": 5}, "end": {"line": 1595, "column": 78}, "value": 5},
+          {"unit_name": "out", "start": {"line": 1597, "column": 5}, "end": {"line": 1627, "column": 10}, "value": 21},
+          {"unit_name": "print", "start": {"line": 1629, "column": 5}, "end": {"line": 1726, "column": 50}, "value": 78},
+          {"unit_name": "print_json", "start": {"line": 1728, "column": 5}, "end": {"line": 1787, "column": 52}, "value": 45},
+          {"unit_name": "update_screen", "start": {"line": 1789, "column": 5}, "end": {"line": 1821, "column": 46}, "value": 21},
+          {"unit_name": "update_screen_lines", "start": {"line": 1823, "column": 5}, "end": {"line": 1841, "column": 29}, "value": 10},
+          {"unit_name": "print_exception", "start": {"line": 1843, "column": 5}, "end": {"line": 1876, "column": 30}, "value": 23},
+          {"unit_name": "_caller_frame_info", "start": {"line": 1879, "column": 5}, "end": {"line": 1911, "column": 85}, "value": 16},
+          {"unit_name": "log", "start": {"line": 1913, "column": 5}, "end": {"line": 1992, "column": 36}, "value": 62},
+          {"unit_name": "on_broken_pipe", "start": {"line": 1994, "column": 5}, "end": {"line": 2006, "column": 28}, "value": 6},
+          {"unit_name": "_check_buffer", "start": {"line": 2008, "column": 5}, "end": {"line": 2021, "column": 34}, "value": 9},
+          {"unit_name": "_write_buffer", "start": {"line": 2023, "column": 5}, "end": {"line": 2094, "column": 40}, "value": 60},
+          {"unit_name": "_render_buffer", "start": {"line": 2096, "column": 5}, "end": {"line": 2118, "column": 24}, "value": 22},
+          {"unit_name": "input", "start": {"line": 2120, "column": 5}, "end": {"line": 2152, "column": 22}, "value": 20},
+          {"unit_name": "export_text", "start": {"line": 2154, "column": 5}, "end": {"line": 2184, "column": 20}, "value": 20},
+          {"unit_name": "save_text", "start": {"line": 2186, "column": 5}, "end": {"line": 2198, "column": 35}, "value": 5},
+          {"unit_name": "export_html", "start": {"line": 2200, "column": 5}, "end": {"line": 2273, "column": 29}, "value": 58},
+          {"unit_name": "save_html", "start": {"line": 2275, "column": 5}, "end": {"line": 2304, "column": 35}, "value": 18},
+          {"unit_name": "export_svg", "start": {"line": 2306, "column": 5}, "end": {"line": 2493, "column": 60}, "value": 105},
+          {"unit_name": "get_svg_style", "start": {"line": 2337, "column": 9}, "end": {"line": 2368, "column": 23}, "value": 31},
+          {"unit_name": "escape_text", "start": {"line": 2397, "column": 9}, "end": {"line": 2399, "column": 55}, "value": 3},
+          {"unit_name": "make_tag", "start": {"line": 2401, "column": 9}, "end": {"line": 2419, "column": 14}, "value": 14},
+          {"unit_name": "stringify", "start": {"line": 2406, "column": 13}, "end": {"line": 2409, "column": 34}, "value": 4},
+          {"unit_name": "save_svg", "start": {"line": 2557, "column": 5}, "end": {"line": 2593, "column": 34}, "value": 22},
+          {"unit_name": "_svg_hash", "start": {"line": 2596, "column": 1}, "end": {"line": 2605, "column": 53}, "value": 3}
+        ]
+      },
+      "rich/_emoji_codes.py": {
+        "checksum": "ee5b0bcdbc8329e0635631715fba318b",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "rich/_stack.py": {
+        "checksum": "dc38e75c7f9b0aace5f9cbe9fa826460",
+        "language": "Python",
+        "loc": 6,
+        "profile": [6, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "top", "start": {"line": 10, "column": 5}, "end": {"line": 12, "column": 24}, "value": 3},
+          {"unit_name": "push", "start": {"line": 14, "column": 5}, "end": {"line": 16, "column": 26}, "value": 3}
+        ]
+      },
+      "rich/segment.py": {
+        "checksum": "42402f0ed00252dbe152f3d4746572a2",
+        "language": "Python",
+        "loc": 383,
+        "profile": [102, 135, 146, 0],
+        "measurements": [
+          {"unit_name": "cell_length", "start": {"line": 82, "column": 5}, "end": {"line": 89, "column": 48}, "value": 4},
+          {"unit_name": "__rich_repr__", "start": {"line": 91, "column": 5}, "end": {"line": 98, "column": 31}, "value": 8},
+          {"unit_name": "__bool__", "start": {"line": 100, "column": 5}, "end": {"line": 102, "column": 31}, "value": 3},
+          {"unit_name": "is_control", "start": {"line": 105, "column": 5}, "end": {"line": 107, "column": 40}, "value": 3},
+          {"unit_name": "_split_cells", "start": {"line": 111, "column": 5}, "end": {"line": 156, "column": 25}, "value": 32},
+          {"unit_name": "split_cells", "start": {"line": 158, "column": 5}, "end": {"line": 182, "column": 44}, "value": 12},
+          {"unit_name": "line", "start": {"line": 185, "column": 5}, "end": {"line": 187, "column": 25}, "value": 3},
+          {"unit_name": "apply_style", "start": {"line": 190, "column": 5}, "end": {"line": 228, "column": 31}, "value": 28},
+          {"unit_name": "filter_control", "start": {"line": 231, "column": 5}, "end": {"line": 247, "column": 64}, "value": 8},
+          {"unit_name": "split_lines", "start": {"line": 250, "column": 5}, "end": {"line": 276, "column": 23}, "value": 19},
+          {"unit_name": "split_and_crop_lines", "start": {"line": 279, "column": 5}, "end": {"line": 323, "column": 73}, "value": 32},
+          {"unit_name": "adjust_line_length", "start": {"line": 326, "column": 5}, "end": {"line": 368, "column": 24}, "value": 32},
+          {"unit_name": "get_line_length", "start": {"line": 371, "column": 5}, "end": {"line": 381, "column": 84}, "value": 4},
+          {"unit_name": "get_shape", "start": {"line": 384, "column": 5}, "end": {"line": 395, "column": 39}, "value": 5},
+          {"unit_name": "set_shape", "start": {"line": 398, "column": 5}, "end": {"line": 431, "column": 28}, "value": 21},
+          {"unit_name": "align_top", "start": {"line": 434, "column": 5}, "end": {"line": 460, "column": 21}, "value": 16},
+          {"unit_name": "align_bottom", "start": {"line": 463, "column": 5}, "end": {"line": 489, "column": 21}, "value": 16},
+          {"unit_name": "align_middle", "start": {"line": 492, "column": 5}, "end": {"line": 520, "column": 21}, "value": 18},
+          {"unit_name": "simplify", "start": {"line": 523, "column": 5}, "end": {"line": 547, "column": 27}, "value": 17},
+          {"unit_name": "strip_links", "start": {"line": 550, "column": 5}, "end": {"line": 564, "column": 76}, "value": 8},
+          {"unit_name": "strip_styles", "start": {"line": 567, "column": 5}, "end": {"line": 577, "column": 43}, "value": 4},
+          {"unit_name": "remove_color", "start": {"line": 580, "column": 5}, "end": {"line": 599, "column": 47}, "value": 12},
+          {"unit_name": "divide", "start": {"line": 602, "column": 5}, "end": {"line": 668, "column": 30}, "value": 50},
+          {"unit_name": "__init__", "start": {"line": 680, "column": 5}, "end": {"line": 682, "column": 35}, "value": 3},
+          {"unit_name": "__rich_console__", "start": {"line": 684, "column": 5}, "end": {"line": 693, "column": 37}, "value": 10},
+          {"unit_name": "__init__", "start": {"line": 697, "column": 5}, "end": {"line": 706, "column": 35}, "value": 4},
+          {"unit_name": "__rich_console__", "start": {"line": 708, "column": 5}, "end": {"line": 718, "column": 32}, "value": 11}
+        ]
+      },
+      "rich/text.py": {
+        "checksum": "ee39ea203c4668b5ebe831bca11924c1",
+        "language": "Python",
+        "loc": 861,
+        "profile": [321, 311, 168, 61],
+        "measurements": [
+          {"unit_name": "__repr__", "start": {"line": 57, "column": 5}, "end": {"line": 58, "column": 65}, "value": 2},
+          {"unit_name": "__bool__", "start": {"line": 60, "column": 5}, "end": {"line": 61, "column": 37}, "value": 2},
+          {"unit_name": "split", "start": {"line": 63, "column": 5}, "end": {"line": 74, "column": 28}, "value": 10},
+          {"unit_name": "move", "start": {"line": 76, "column": 5}, "end": {"line": 86, "column": 57}, "value": 4},
+          {"unit_name": "right_crop", "start": {"line": 88, "column": 5}, "end": {"line": 100, "column": 52}, "value": 6},
+          {"unit_name": "extend", "start": {"line": 102, "column": 5}, "end": {"line": 115, "column": 24}, "value": 7},
+          {"unit_name": "__init__", "start": {"line": 144, "column": 5}, "end": {"line": 165, "column": 48}, "value": 22},
+          {"unit_name": "__len__", "start": {"line": 167, "column": 5}, "end": {"line": 168, "column": 28}, "value": 2},
+          {"unit_name": "__bool__", "start": {"line": 170, "column": 5}, "end": {"line": 171, "column": 34}, "value": 2},
+          {"unit_name": "__str__", "start": {"line": 173, "column": 5}, "end": {"line": 174, "column": 26}, "value": 2},
+          {"unit_name": "__repr__", "start": {"line": 176, "column": 5}, "end": {"line": 177, "column": 71}, "value": 2},
+          {"unit_name": "__add__", "start": {"line": 179, "column": 5}, "end": {"line": 184, "column": 30}, "value": 6},
+          {"unit_name": "__eq__", "start": {"line": 186, "column": 5}, "end": {"line": 189, "column": 73}, "value": 4},
+          {"unit_name": "__contains__", "start": {"line": 191, "column": 5}, "end": {"line": 196, "column": 21}, "value": 6},
+          {"unit_name": "__getitem__", "start": {"line": 198, "column": 5}, "end": {"line": 222, "column": 73}, "value": 11},
+          {"unit_name": "get_text_at", "start": {"line": 199, "column": 9}, "end": {"line": 210, "column": 24}, "value": 12},
+          {"unit_name": "cell_len", "start": {"line": 225, "column": 5}, "end": {"line": 227, "column": 36}, "value": 3},
+          {"unit_name": "markup", "start": {"line": 230, "column": 5}, "end": {"line": 257, "column": 22}, "value": 22},
+          {"unit_name": "from_markup", "start": {"line": 260, "column": 5}, "end": {"line": 291, "column": 29}, "value": 18},
+          {"unit_name": "from_ansi", "start": {"line": 294, "column": 5}, "end": {"line": 329, "column": 22}, "value": 25},
+          {"unit_name": "styled", "start": {"line": 332, "column": 5}, "end": {"line": 354, "column": 27}, "value": 12},
+          {"unit_name": "assemble", "start": {"line": 357, "column": 5}, "end": {"line": 400, "column": 20}, "value": 30},
+          {"unit_name": "plain", "start": {"line": 403, "column": 5}, "end": {"line": 407, "column": 29}, "value": 5},
+          {"unit_name": "plain", "start": {"line": 410, "column": 5}, "end": {"line": 418, "column": 35}, "value": 9},
+          {"unit_name": "spans", "start": {"line": 421, "column": 5}, "end": {"line": 423, "column": 27}, "value": 3},
+          {"unit_name": "spans", "start": {"line": 426, "column": 5}, "end": {"line": 428, "column": 31}, "value": 3},
+          {"unit_name": "blank_copy", "start": {"line": 430, "column": 5}, "end": {"line": 441, "column": 25}, "value": 12},
+          {"unit_name": "copy", "start": {"line": 443, "column": 5}, "end": {"line": 455, "column": 25}, "value": 13},
+          {"unit_name": "stylize", "start": {"line": 457, "column": 5}, "end": {"line": 481, "column": 69}, "value": 18},
+          {"unit_name": "stylize_before", "start": {"line": 483, "column": 5}, "end": {"line": 507, "column": 72}, "value": 18},
+          {"unit_name": "apply_meta", "start": {"line": 509, "column": 5}, "end": {"line": 521, "column": 50}, "value": 6},
+          {"unit_name": "on", "start": {"line": 523, "column": 5}, "end": {"line": 541, "column": 20}, "value": 6},
+          {"unit_name": "remove_suffix", "start": {"line": 543, "column": 5}, "end": {"line": 550, "column": 41}, "value": 4},
+          {"unit_name": "get_style_at_offset", "start": {"line": 552, "column": 5}, "end": {"line": 570, "column": 21}, "value": 10},
+          {"unit_name": "extend_style", "start": {"line": 572, "column": 5}, "end": {"line": 591, "column": 37}, "value": 16},
+          {"unit_name": "highlight_regex", "start": {"line": 593, "column": 5}, "end": {"line": 631, "column": 21}, "value": 27},
+          {"unit_name": "highlight_words", "start": {"line": 633, "column": 5}, "end": {"line": 660, "column": 21}, "value": 19},
+          {"unit_name": "rstrip", "start": {"line": 662, "column": 5}, "end": {"line": 664, "column": 41}, "value": 3},
+          {"unit_name": "rstrip_end", "start": {"line": 666, "column": 5}, "end": {"line": 678, "column": 63}, "value": 9},
+          {"unit_name": "set_length", "start": {"line": 680, "column": 5}, "end": {"line": 687, "column": 53}, "value": 8},
+          {"unit_name": "__rich_console__", "start": {"line": 689, "column": 5}, "end": {"line": 706, "column": 59}, "value": 16},
+          {"unit_name": "__rich_measure__", "start": {"line": 708, "column": 5}, "end": {"line": 718, "column": 59}, "value": 11},
+          {"unit_name": "render", "start": {"line": 720, "column": 5}, "end": {"line": 777, "column": 32}, "value": 36},
+          {"unit_name": "get_current_style", "start": {"line": 759, "column": 9}, "end": {"line": 767, "column": 33}, "value": 9},
+          {"unit_name": "join", "start": {"line": 779, "column": 5}, "end": {"line": 816, "column": 24}, "value": 20},
+          {"unit_name": "iter_text", "start": {"line": 791, "column": 9}, "end": {"line": 798, "column": 33}, "value": 8},
+          {"unit_name": "expand_tabs", "start": {"line": 818, "column": 5}, "end": {"line": 858, "column": 39}, "value": 32},
+          {"unit_name": "truncate", "start": {"line": 860, "column": 5}, "end": {"line": 885, "column": 47}, "value": 20},
+          {"unit_name": "_trim_spans", "start": {"line": 887, "column": 5}, "end": {"line": 899, "column": 10}, "value": 13},
+          {"unit_name": "pad", "start": {"line": 901, "column": 5}, "end": {"line": 916, "column": 14}, "value": 11},
+          {"unit_name": "pad_left", "start": {"line": 918, "column": 5}, "end": {"line": 932, "column": 14}, "value": 10},
+          {"unit_name": "pad_right", "start": {"line": 934, "column": 5}, "end": {"line": 943, "column": 60}, "value": 5},
+          {"unit_name": "align", "start": {"line": 945, "column": 5}, "end": {"line": 963, "column": 55}, "value": 13},
+          {"unit_name": "append", "start": {"line": 965, "column": 5}, "end": {"line": 1007, "column": 20}, "value": 33},
+          {"unit_name": "append_text", "start": {"line": 1009, "column": 5}, "end": {"line": 1029, "column": 20}, "value": 13},
+          {"unit_name": "append_tokens", "start": {"line": 1031, "column": 5}, "end": {"line": 1053, "column": 20}, "value": 16},
+          {"unit_name": "copy_styles", "start": {"line": 1055, "column": 5}, "end": {"line": 1061, "column": 40}, "value": 3},
+          {"unit_name": "split", "start": {"line": 1063, "column": 5}, "end": {"line": 1105, "column": 21}, "value": 24},
+          {"unit_name": "flatten_spans", "start": {"line": 1092, "column": 13}, "end": {"line": 1096, "column": 30}, "value": 5},
+          {"unit_name": "divide", "start": {"line": 1107, "column": 5}, "end": {"line": 1184, "column": 25}, "value": 61},
+          {"unit_name": "right_crop", "start": {"line": 1186, "column": 5}, "end": {"line": 1200, "column": 31}, "value": 15},
+          {"unit_name": "wrap", "start": {"line": 1202, "column": 5}, "end": {"line": 1248, "column": 21}, "value": 33},
+          {"unit_name": "fit", "start": {"line": 1250, "column": 5}, "end": {"line": 1264, "column": 21}, "value": 8},
+          {"unit_name": "detect_indentation", "start": {"line": 1266, "column": 5}, "end": {"line": 1285, "column": 27}, "value": 13},
+          {"unit_name": "with_indent_guides", "start": {"line": 1287, "column": 5}, "end": {"line": 1333, "column": 24}, "value": 34}
+        ]
+      },
+      "rich/_null_file.py": {
+        "checksum": "f6ff9a11d1f74441a31430dad31c8d4d",
+        "language": "Python",
+        "loc": 43,
+        "profile": [43, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "close", "start": {"line": 6, "column": 5}, "end": {"line": 7, "column": 13}, "value": 2},
+          {"unit_name": "isatty", "start": {"line": 9, "column": 5}, "end": {"line": 10, "column": 21}, "value": 2},
+          {"unit_name": "read", "start": {"line": 12, "column": 5}, "end": {"line": 13, "column": 18}, "value": 2},
+          {"unit_name": "readable", "start": {"line": 15, "column": 5}, "end": {"line": 16, "column": 21}, "value": 2},
+          {"unit_name": "readline", "start": {"line": 18, "column": 5}, "end": {"line": 19, "column": 18}, "value": 2},
+          {"unit_name": "readlines", "start": {"line": 21, "column": 5}, "end": {"line": 22, "column": 18}, "value": 2},
+          {"unit_name": "seek", "start": {"line": 24, "column": 5}, "end": {"line": 25, "column": 17}, "value": 2},
+          {"unit_name": "seekable", "start": {"line": 27, "column": 5}, "end": {"line": 28, "column": 21}, "value": 2},
+          {"unit_name": "tell", "start": {"line": 30, "column": 5}, "end": {"line": 31, "column": 17}, "value": 2},
+          {"unit_name": "truncate", "start": {"line": 33, "column": 5}, "end": {"line": 34, "column": 17}, "value": 2},
+          {"unit_name": "writable", "start": {"line": 36, "column": 5}, "end": {"line": 37, "column": 21}, "value": 2},
+          {"unit_name": "writelines", "start": {"line": 39, "column": 5}, "end": {"line": 40, "column": 13}, "value": 2},
+          {"unit_name": "__next__", "start": {"line": 42, "column": 5}, "end": {"line": 43, "column": 18}, "value": 2},
+          {"unit_name": "__iter__", "start": {"line": 45, "column": 5}, "end": {"line": 46, "column": 26}, "value": 2},
+          {"unit_name": "__enter__", "start": {"line": 48, "column": 5}, "end": {"line": 49, "column": 20}, "value": 2},
+          {"unit_name": "__exit__", "start": {"line": 51, "column": 5}, "end": {"line": 57, "column": 13}, "value": 7},
+          {"unit_name": "write", "start": {"line": 59, "column": 5}, "end": {"line": 60, "column": 17}, "value": 2},
+          {"unit_name": "flush", "start": {"line": 62, "column": 5}, "end": {"line": 63, "column": 13}, "value": 2},
+          {"unit_name": "fileno", "start": {"line": 65, "column": 5}, "end": {"line": 66, "column": 18}, "value": 2}
+        ]
+      },
+      "rich/_inspect.py": {
+        "checksum": "658ed2fdbf80a1f27b07a37d164eb49b",
+        "language": "Python",
+        "loc": 187,
+        "profile": [57, 56, 0, 74],
+        "measurements": [
+          {"unit_name": "_first_paragraph", "start": {"line": 15, "column": 1}, "end": {"line": 18, "column": 21}, "value": 4},
+          {"unit_name": "__init__", "start": {"line": 37, "column": 5}, "end": {"line": 62, "column": 27}, "value": 26},
+          {"unit_name": "_make_title", "start": {"line": 64, "column": 5}, "end": {"line": 72, "column": 26}, "value": 9},
+          {"unit_name": "__rich__", "start": {"line": 74, "column": 5}, "end": {"line": 80, "column": 10}, "value": 7},
+          {"unit_name": "_get_signature", "start": {"line": 82, "column": 5}, "end": {"line": 119, "column": 30}, "value": 30},
+          {"unit_name": "_render", "start": {"line": 121, "column": 5}, "end": {"line": 212, "column": 14}, "value": 74},
+          {"unit_name": "sort_items", "start": {"line": 124, "column": 9}, "end": {"line": 126, "column": 61}, "value": 3},
+          {"unit_name": "safe_getattr", "start": {"line": 128, "column": 9}, "end": {"line": 133, "column": 37}, "value": 6},
+          {"unit_name": "_get_formatted_doc", "start": {"line": 214, "column": 5}, "end": {"line": 233, "column": 42}, "value": 9},
+          {"unit_name": "get_object_types_mro", "start": {"line": 236, "column": 1}, "end": {"line": 242, "column": 39}, "value": 5},
+          {"unit_name": "get_object_types_mro_as_strings", "start": {"line": 245, "column": 1}, "end": {"line": 255, "column": 6}, "value": 6},
+          {"unit_name": "is_object_one_of_types", "start": {"line": 258, "column": 1}, "end": {"line": 268, "column": 17}, "value": 8}
+        ]
+      },
+      "rich/progress_bar.py": {
+        "checksum": "e93b531bf5614c90b8279357f6974b9d",
+        "language": "Python",
+        "loc": 139,
+        "profile": [21, 39, 79, 0],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 33, "column": 5}, "end": {"line": 55, "column": 61}, "value": 22},
+          {"unit_name": "__repr__", "start": {"line": 57, "column": 5}, "end": {"line": 58, "column": 61}, "value": 2},
+          {"unit_name": "percentage_completed", "start": {"line": 61, "column": 5}, "end": {"line": 67, "column": 25}, "value": 7},
+          {"unit_name": "_get_pulse_segments", "start": {"line": 70, "column": 5}, "end": {"line": 114, "column": 24}, "value": 39},
+          {"unit_name": "update", "start": {"line": 116, "column": 5}, "end": {"line": 124, "column": 64}, "value": 4},
+          {"unit_name": "_render_pulse", "start": {"line": 126, "column": 5}, "end": {"line": 154, "column": 28}, "value": 17},
+          {"unit_name": "__rich_console__", "start": {"line": 156, "column": 5}, "end": {"line": 198, "column": 64}, "value": 40},
+          {"unit_name": "__rich_measure__", "start": {"line": 200, "column": 5}, "end": {"line": 207, "column": 10}, "value": 8}
+        ]
+      },
+      "rich/default_styles.py": {
+        "checksum": "9eba5f07e00d9082e22bdf43cbc9c287",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "rich/styled.py": {
+        "checksum": "8f8a5af3b17230e7411ba8f61641753b",
+        "language": "Python",
+        "loc": 14,
+        "profile": [14, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 19, "column": 5}, "end": {"line": 21, "column": 27}, "value": 3},
+          {"unit_name": "__rich_console__", "start": {"line": 23, "column": 5}, "end": {"line": 29, "column": 24}, "value": 7},
+          {"unit_name": "__rich_measure__", "start": {"line": 31, "column": 5}, "end": {"line": 34, "column": 66}, "value": 4}
+        ]
+      },
+      "rich/measure.py": {
+        "checksum": "9a85d7d329b3550929e01d7b08f6ab05",
+        "language": "Python",
+        "loc": 76,
+        "profile": [27, 17, 32, 0],
+        "measurements": [
+          {"unit_name": "span", "start": {"line": 20, "column": 5}, "end": {"line": 22, "column": 43}, "value": 3},
+          {"unit_name": "normalize", "start": {"line": 24, "column": 5}, "end": {"line": 32, "column": 75}, "value": 5},
+          {"unit_name": "with_maximum", "start": {"line": 34, "column": 5}, "end": {"line": 44, "column": 69}, "value": 4},
+          {"unit_name": "with_minimum", "start": {"line": 46, "column": 5}, "end": {"line": 57, "column": 69}, "value": 5},
+          {"unit_name": "clamp", "start": {"line": 59, "column": 5}, "end": {"line": 76, "column": 27}, "value": 10},
+          {"unit_name": "get", "start": {"line": 79, "column": 5}, "end": {"line": 122, "column": 14}, "value": 32},
+          {"unit_name": "measure_renderables", "start": {"line": 125, "column": 1}, "end": {"line": 151, "column": 26}, "value": 17}
+        ]
+      },
+      "rich/repr.py": {
+        "checksum": "7b8643280681ffb90781d9753d4f0ad8",
+        "language": "Python",
+        "loc": 81,
+        "profile": [39, 42, 0, 0],
+        "measurements": [
+          {"unit_name": "auto", "start": {"line": 28, "column": 1}, "end": {"line": 29, "column": 8}, "value": 2},
+          {"unit_name": "auto", "start": {"line": 33, "column": 1}, "end": {"line": 34, "column": 8}, "value": 2},
+          {"unit_name": "auto", "start": {"line": 37, "column": 1}, "end": {"line": 101, "column": 48}, "value": 9},
+          {"unit_name": "do_replace", "start": {"line": 42, "column": 5}, "end": {"line": 96, "column": 19}, "value": 11},
+          {"unit_name": "auto_repr", "start": {"line": 43, "column": 9}, "end": {"line": 66, "column": 75}, "value": 23},
+          {"unit_name": "auto_rich_repr", "start": {"line": 68, "column": 9}, "end": {"line": 86, "column": 28}, "value": 19},
+          {"unit_name": "rich_repr", "start": {"line": 105, "column": 1}, "end": {"line": 106, "column": 8}, "value": 2},
+          {"unit_name": "rich_repr", "start": {"line": 110, "column": 1}, "end": {"line": 111, "column": 8}, "value": 2},
+          {"unit_name": "rich_repr", "start": {"line": 114, "column": 1}, "end": {"line": 120, "column": 25}, "value": 7},
+          {"unit_name": "__rich_repr__", "start": {"line": 127, "column": 9}, "end": {"line": 130, "column": 42}, "value": 4}
+        ]
+      },
+      "rich/columns.py": {
+        "checksum": "d32c7ef426f5ef568db7f6fa3acaae07",
+        "language": "Python",
+        "loc": 127,
+        "profile": [3, 51, 0, 73],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 31, "column": 5}, "end": {"line": 52, "column": 27}, "value": 22},
+          {"unit_name": "add_renderable", "start": {"line": 54, "column": 5}, "end": {"line": 60, "column": 44}, "value": 3},
+          {"unit_name": "__rich_console__", "start": {"line": 62, "column": 5}, "end": {"line": 171, "column": 20}, "value": 73},
+          {"unit_name": "iter_renderables", "start": {"line": 86, "column": 9}, "end": {"line": 117, "column": 34}, "value": 29}
+        ]
+      },
+      "rich/pretty.py": {
+        "checksum": "7e5c31eef3263953b0e72efc51326c4a",
+        "language": "Python",
+        "loc": 649,
+        "profile": [170, 160, 103, 216],
+        "measurements": [
+          {"unit_name": "_is_attr_object", "start": {"line": 60, "column": 1}, "end": {"line": 62, "column": 54}, "value": 3},
+          {"unit_name": "_get_attr_fields", "start": {"line": 65, "column": 1}, "end": {"line": 67, "column": 64}, "value": 3},
+          {"unit_name": "_is_dataclass_repr", "start": {"line": 70, "column": 1}, "end": {"line": 87, "column": 21}, "value": 9},
+          {"unit_name": "_has_default_namedtuple_repr", "start": {"line": 93, "column": 1}, "end": {"line": 110, "column": 41}, "value": 9},
+          {"unit_name": "_ipy_display_hook", "start": {"line": 113, "column": 1}, "end": {"line": 158, "column": 38}, "value": 38},
+          {"unit_name": "_safe_isinstance", "start": {"line": 161, "column": 1}, "end": {"line": 168, "column": 21}, "value": 8},
+          {"unit_name": "install", "start": {"line": 171, "column": 1}, "end": {"line": 250, "column": 71}, "value": 26},
+          {"unit_name": "display_hook", "start": {"line": 200, "column": 5}, "end": {"line": 221, "column": 31}, "value": 22},
+          {"unit_name": "__call__", "start": {"line": 233, "column": 13}, "end": {"line": 246, "column": 39}, "value": 14},
+          {"unit_name": "__init__", "start": {"line": 273, "column": 5}, "end": {"line": 302, "column": 39}, "value": 30},
+          {"unit_name": "__rich_console__", "start": {"line": 304, "column": 5}, "end": {"line": 337, "column": 26}, "value": 34},
+          {"unit_name": "__rich_measure__", "start": {"line": 339, "column": 5}, "end": {"line": 354, "column": 51}, "value": 16},
+          {"unit_name": "_get_braces_for_defaultdict", "start": {"line": 357, "column": 1}, "end": {"line": 362, "column": 6}, "value": 6},
+          {"unit_name": "_get_braces_for_deque", "start": {"line": 365, "column": 1}, "end": {"line": 372, "column": 6}, "value": 8},
+          {"unit_name": "_get_braces_for_array", "start": {"line": 375, "column": 1}, "end": {"line": 376, "column": 84}, "value": 2},
+          {"unit_name": "is_expandable", "start": {"line": 398, "column": 1}, "end": {"line": 405, "column": 27}, "value": 8},
+          {"unit_name": "iter_tokens", "start": {"line": 424, "column": 5}, "end": {"line": 444, "column": 33}, "value": 21},
+          {"unit_name": "check_length", "start": {"line": 446, "column": 5}, "end": {"line": 461, "column": 20}, "value": 8},
+          {"unit_name": "__str__", "start": {"line": 463, "column": 5}, "end": {"line": 465, "column": 25}, "value": 3},
+          {"unit_name": "render", "start": {"line": 467, "column": 5}, "end": {"line": 490, "column": 24}, "value": 14},
+          {"unit_name": "expandable", "start": {"line": 507, "column": 5}, "end": {"line": 509, "column": 66}, "value": 3},
+          {"unit_name": "check_length", "start": {"line": 511, "column": 5}, "end": {"line": 517, "column": 64}, "value": 7},
+          {"unit_name": "expand", "start": {"line": 519, "column": 5}, "end": {"line": 550, "column": 10}, "value": 31},
+          {"unit_name": "__str__", "start": {"line": 552, "column": 5}, "end": {"line": 558, "column": 14}, "value": 7},
+          {"unit_name": "_is_namedtuple", "start": {"line": 561, "column": 1}, "end": {"line": 577, "column": 64}, "value": 7},
+          {"unit_name": "traverse", "start": {"line": 580, "column": 1}, "end": {"line": 875, "column": 16}, "value": 14},
+          {"unit_name": "to_repr", "start": {"line": 601, "column": 5}, "end": {"line": 615, "column": 24}, "value": 15},
+          {"unit_name": "_traverse", "start": {"line": 621, "column": 5}, "end": {"line": 872, "column": 20}, "value": 216},
+          {"unit_name": "iter_rich_args", "start": {"line": 633, "column": 9}, "end": {"line": 647, "column": 30}, "value": 15},
+          {"unit_name": "iter_attrs", "start": {"line": 731, "column": 21}, "end": {"line": 732, "column": 82}, "value": 2},
+          {"unit_name": "pretty_repr", "start": {"line": 878, "column": 1}, "end": {"line": 915, "column": 20}, "value": 21},
+          {"unit_name": "pprint", "start": {"line": 918, "column": 1}, "end": {"line": 952, "column": 6}, "value": 24},
+          {"unit_name": "__repr__", "start": {"line": 958, "column": 9}, "end": {"line": 960, "column": 36}, "value": 3},
+          {"unit_name": "__repr__", "start": {"line": 1013, "column": 9}, "end": {"line": 1014, "column": 48}, "value": 2}
+        ]
+      },
+      "rich/cells.py": {
+        "checksum": "811f5d5eaa1c4a05755944b6ac9e6ab6",
+        "language": "Python",
+        "loc": 80,
+        "profile": [12, 68, 0, 0],
+        "measurements": [
+          {"unit_name": "cached_cell_len", "start": {"line": 34, "column": 1}, "end": {"line": 48, "column": 51}, "value": 5},
+          {"unit_name": "cell_len", "start": {"line": 51, "column": 1}, "end": {"line": 64, "column": 51}, "value": 7},
+          {"unit_name": "get_character_cell_size", "start": {"line": 68, "column": 1}, "end": {"line": 93, "column": 13}, "value": 19},
+          {"unit_name": "set_cell_size", "start": {"line": 96, "column": 1}, "end": {"line": 128, "column": 24}, "value": 28},
+          {"unit_name": "chop_cells", "start": {"line": 131, "column": 1}, "end": {"line": 165, "column": 45}, "value": 21}
+        ]
+      },
+      "rich/color.py": {
+        "checksum": "76164eb04db69537ea16900e2cee8b5e",
+        "language": "Python",
+        "loc": 198,
+        "profile": [66, 43, 89, 0],
+        "measurements": [
+          {"unit_name": "__repr__", "start": {"line": 29, "column": 5}, "end": {"line": 30, "column": 42}, "value": 2},
+          {"unit_name": "__str__", "start": {"line": 32, "column": 5}, "end": {"line": 33, "column": 26}, "value": 2},
+          {"unit_name": "__repr__", "start": {"line": 45, "column": 5}, "end": {"line": 46, "column": 40}, "value": 2},
+          {"unit_name": "__rich__", "start": {"line": 315, "column": 5}, "end": {"line": 324, "column": 10}, "value": 9},
+          {"unit_name": "__rich_repr__", "start": {"line": 326, "column": 5}, "end": {"line": 330, "column": 44}, "value": 5},
+          {"unit_name": "system", "start": {"line": 333, "column": 5}, "end": {"line": 337, "column": 43}, "value": 5},
+          {"unit_name": "is_system_defined", "start": {"line": 340, "column": 5}, "end": {"line": 342, "column": 81}, "value": 3},
+          {"unit_name": "is_default", "start": {"line": 345, "column": 5}, "end": {"line": 347, "column": 46}, "value": 3},
+          {"unit_name": "get_truecolor", "start": {"line": 349, "column": 5}, "end": {"line": 378, "column": 84}, "value": 21},
+          {"unit_name": "from_ansi", "start": {"line": 381, "column": 5}, "end": {"line": 394, "column": 10}, "value": 7},
+          {"unit_name": "from_triplet", "start": {"line": 397, "column": 5}, "end": {"line": 406, "column": 80}, "value": 3},
+          {"unit_name": "from_rgb", "start": {"line": 409, "column": 5}, "end": {"line": 420, "column": 79}, "value": 3},
+          {"unit_name": "default", "start": {"line": 423, "column": 5}, "end": {"line": 429, "column": 59}, "value": 3},
+          {"unit_name": "parse", "start": {"line": 433, "column": 5}, "end": {"line": 482, "column": 68}, "value": 44},
+          {"unit_name": "get_ansi_codes", "start": {"line": 485, "column": 5}, "end": {"line": 510, "column": 88}, "value": 22},
+          {"unit_name": "downgrade", "start": {"line": 513, "column": 5}, "end": {"line": 568, "column": 20}, "value": 45},
+          {"unit_name": "parse_rgb_hex", "start": {"line": 571, "column": 1}, "end": {"line": 577, "column": 17}, "value": 7},
+          {"unit_name": "blend_rgb", "start": {"line": 580, "column": 1}, "end": {"line": 591, "column": 21}, "value": 12}
+        ]
+      },
+      "rich/_pick.py": {
+        "checksum": "285ad4f0fba46377d8de4ded53a60ec1",
+        "language": "Python",
+        "loc": 7,
+        "profile": [7, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "pick_bool", "start": {"line": 4, "column": 1}, "end": {"line": 17, "column": 23}, "value": 7}
+        ]
+      },
+      "rich/_windows_renderer.py": {
+        "checksum": "54a1beaa26a5de13c390280cc4029012",
+        "language": "Python",
+        "loc": 45,
+        "profile": [0, 0, 45, 0],
+        "measurements": [
+          {"unit_name": "legacy_windows_render", "start": {"line": 7, "column": 1}, "end": {"line": 56, "column": 42}, "value": 45}
+        ]
+      },
+      "rich/_palettes.py": {
+        "checksum": "e16fbfbe318c86c37b7730154d2d2ce8",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "rich/panel.py": {
+        "checksum": "c4f1ea14f74eedbfbeebfb8f64918c7f",
+        "language": "Python",
+        "loc": 229,
+        "profile": [28, 20, 100, 81],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 40, "column": 5}, "end": {"line": 71, "column": 35}, "value": 32},
+          {"unit_name": "fit", "start": {"line": 74, "column": 5}, "end": {"line": 107, "column": 10}, "value": 34},
+          {"unit_name": "_title", "start": {"line": 110, "column": 5}, "end": {"line": 123, "column": 20}, "value": 14},
+          {"unit_name": "_subtitle", "start": {"line": 126, "column": 5}, "end": {"line": 139, "column": 20}, "value": 14},
+          {"unit_name": "__rich_console__", "start": {"line": 141, "column": 5}, "end": {"line": 276, "column": 23}, "value": 81},
+          {"unit_name": "align_text", "start": {"line": 160, "column": 9}, "end": {"line": 205, "column": 24}, "value": 34},
+          {"unit_name": "__rich_measure__", "start": {"line": 278, "column": 5}, "end": {"line": 298, "column": 41}, "value": 20}
+        ]
+      },
+      "rich/theme.py": {
+        "checksum": "e8dd87151f2dc1d609c2a6cc7f29c47f",
+        "language": "Python",
+        "loc": 49,
+        "profile": [49, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 18, "column": 5}, "end": {"line": 28, "column": 14}, "value": 11},
+          {"unit_name": "config", "start": {"line": 31, "column": 5}, "end": {"line": 36, "column": 22}, "value": 6},
+          {"unit_name": "from_file", "start": {"line": 39, "column": 5}, "end": {"line": 56, "column": 21}, "value": 9},
+          {"unit_name": "read", "start": {"line": 59, "column": 5}, "end": {"line": 73, "column": 76}, "value": 6},
+          {"unit_name": "__init__", "start": {"line": 87, "column": 5}, "end": {"line": 89, "column": 41}, "value": 3},
+          {"unit_name": "push_theme", "start": {"line": 91, "column": 5}, "end": {"line": 103, "column": 41}, "value": 8},
+          {"unit_name": "pop_theme", "start": {"line": 105, "column": 5}, "end": {"line": 110, "column": 41}, "value": 6}
+        ]
+      },
+      "rich/json.py": {
+        "checksum": "0d4cbd9cd3035525dfb75196f2d26c1c",
+        "language": "Python",
+        "loc": 58,
+        "profile": [2, 56, 0, 0],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 25, "column": 5}, "end": {"line": 51, "column": 34}, "value": 27},
+          {"unit_name": "from_data", "start": {"line": 54, "column": 5}, "end": {"line": 99, "column": 29}, "value": 29},
+          {"unit_name": "__rich__", "start": {"line": 101, "column": 5}, "end": {"line": 102, "column": 25}, "value": 2}
+        ]
+      },
+      "rich/tree.py": {
+        "checksum": "9ed17bfc0a298e1b9ae8474f25185b59",
+        "language": "Python",
+        "loc": 142,
+        "profile": [8, 62, 0, 72],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 37, "column": 5}, "end": {"line": 53, "column": 35}, "value": 17},
+          {"unit_name": "add", "start": {"line": 55, "column": 5}, "end": {"line": 84, "column": 20}, "value": 19},
+          {"unit_name": "__rich_console__", "start": {"line": 86, "column": 5}, "end": {"line": 174, "column": 27}, "value": 72},
+          {"unit_name": "make_guide", "start": {"line": 101, "column": 9}, "end": {"line": 108, "column": 41}, "value": 8},
+          {"unit_name": "__rich_measure__", "start": {"line": 176, "column": 5}, "end": {"line": 201, "column": 45}, "value": 26}
+        ]
+      },
+      "rich/_fileno.py": {
+        "checksum": "fa1ea276aabd62b2c707f7e1eab18e36",
+        "language": "Python",
+        "loc": 9,
+        "profile": [9, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "get_fileno", "start": {"line": 6, "column": 1}, "end": {"line": 24, "column": 16}, "value": 9}
+        ]
+      },
+      "rich/progress.py": {
+        "checksum": "618020caf35856a4a4addd16cbd39cd3",
+        "language": "Python",
+        "loc": 1014,
+        "profile": [453, 285, 276, 0],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 71, "column": 5}, "end": {"line": 78, "column": 38}, "value": 7},
+          {"unit_name": "run", "start": {"line": 80, "column": 5}, "end": {"line": 92, "column": 83}, "value": 12},
+          {"unit_name": "__enter__", "start": {"line": 94, "column": 5}, "end": {"line": 96, "column": 20}, "value": 3},
+          {"unit_name": "__exit__", "start": {"line": 98, "column": 5}, "end": {"line": 105, "column": 20}, "value": 8},
+          {"unit_name": "track", "start": {"line": 108, "column": 1}, "end": {"line": 181, "column": 10}, "value": 51},
+          {"unit_name": "__init__", "start": {"line": 187, "column": 5}, "end": {"line": 198, "column": 29}, "value": 12},
+          {"unit_name": "__enter__", "start": {"line": 200, "column": 5}, "end": {"line": 202, "column": 20}, "value": 3},
+          {"unit_name": "__exit__", "start": {"line": 204, "column": 5}, "end": {"line": 210, "column": 21}, "value": 7},
+          {"unit_name": "__iter__", "start": {"line": 212, "column": 5}, "end": {"line": 213, "column": 20}, "value": 2},
+          {"unit_name": "__next__", "start": {"line": 215, "column": 5}, "end": {"line": 218, "column": 20}, "value": 4},
+          {"unit_name": "closed", "start": {"line": 221, "column": 5}, "end": {"line": 222, "column": 28}, "value": 2},
+          {"unit_name": "fileno", "start": {"line": 224, "column": 5}, "end": {"line": 225, "column": 36}, "value": 2},
+          {"unit_name": "isatty", "start": {"line": 227, "column": 5}, "end": {"line": 228, "column": 36}, "value": 2},
+          {"unit_name": "mode", "start": {"line": 231, "column": 5}, "end": {"line": 232, "column": 32}, "value": 2},
+          {"unit_name": "name", "start": {"line": 235, "column": 5}, "end": {"line": 236, "column": 32}, "value": 2},
+          {"unit_name": "readable", "start": {"line": 238, "column": 5}, "end": {"line": 239, "column": 38}, "value": 2},
+          {"unit_name": "seekable", "start": {"line": 241, "column": 5}, "end": {"line": 242, "column": 38}, "value": 2},
+          {"unit_name": "writable", "start": {"line": 244, "column": 5}, "end": {"line": 245, "column": 21}, "value": 2},
+          {"unit_name": "read", "start": {"line": 247, "column": 5}, "end": {"line": 250, "column": 21}, "value": 4},
+          {"unit_name": "readinto", "start": {"line": 252, "column": 5}, "end": {"line": 255, "column": 17}, "value": 4},
+          {"unit_name": "readline", "start": {"line": 257, "column": 5}, "end": {"line": 260, "column": 20}, "value": 4},
+          {"unit_name": "readlines", "start": {"line": 262, "column": 5}, "end": {"line": 265, "column": 21}, "value": 4},
+          {"unit_name": "close", "start": {"line": 267, "column": 5}, "end": {"line": 270, "column": 28}, "value": 4},
+          {"unit_name": "seek", "start": {"line": 272, "column": 5}, "end": {"line": 275, "column": 19}, "value": 4},
+          {"unit_name": "tell", "start": {"line": 277, "column": 5}, "end": {"line": 278, "column": 34}, "value": 2},
+          {"unit_name": "write", "start": {"line": 280, "column": 5}, "end": {"line": 281, "column": 44}, "value": 2},
+          {"unit_name": "writelines", "start": {"line": 283, "column": 5}, "end": {"line": 284, "column": 49}, "value": 2},
+          {"unit_name": "__init__", "start": {"line": 290, "column": 5}, "end": {"line": 292, "column": 33}, "value": 3},
+          {"unit_name": "__enter__", "start": {"line": 294, "column": 5}, "end": {"line": 296, "column": 39}, "value": 3},
+          {"unit_name": "__exit__", "start": {"line": 298, "column": 5}, "end": {"line": 305, "column": 56}, "value": 8},
+          {"unit_name": "wrap_file", "start": {"line": 308, "column": 1}, "end": {"line": 370, "column": 42}, "value": 43},
+          {"unit_name": "open", "start": {"line": 374, "column": 1}, "end": {"line": 395, "column": 9}, "value": 22},
+          {"unit_name": "open", "start": {"line": 399, "column": 1}, "end": {"line": 420, "column": 9}, "value": 22},
+          {"unit_name": "open", "start": {"line": 423, "column": 1}, "end": {"line": 506, "column": 42}, "value": 57},
+          {"unit_name": "__init__", "start": {"line": 514, "column": 5}, "end": {"line": 517, "column": 50}, "value": 4},
+          {"unit_name": "get_table_column", "start": {"line": 519, "column": 5}, "end": {"line": 521, "column": 46}, "value": 3},
+          {"unit_name": "__call__", "start": {"line": 523, "column": 5}, "end": {"line": 544, "column": 26}, "value": 14},
+          {"unit_name": "render", "start": {"line": 547, "column": 5}, "end": {"line": 548, "column": 49}, "value": 2},
+          {"unit_name": "__init__", "start": {"line": 558, "column": 5}, "end": {"line": 562, "column": 52}, "value": 5},
+          {"unit_name": "render", "start": {"line": 564, "column": 5}, "end": {"line": 565, "column": 31}, "value": 2},
+          {"unit_name": "__init__", "start": {"line": 578, "column": 5}, "end": {"line": 592, "column": 52}, "value": 15},
+          {"unit_name": "set_spinner", "start": {"line": 594, "column": 5}, "end": {"line": 607, "column": 79}, "value": 8},
+          {"unit_name": "render", "start": {"line": 609, "column": 5}, "end": {"line": 615, "column": 20}, "value": 7},
+          {"unit_name": "__init__", "start": {"line": 621, "column": 5}, "end": {"line": 635, "column": 76}, "value": 15},
+          {"unit_name": "render", "start": {"line": 637, "column": 5}, "end": {"line": 645, "column": 20}, "value": 9},
+          {"unit_name": "__init__", "start": {"line": 659, "column": 5}, "end": {"line": 673, "column": 52}, "value": 15},
+          {"unit_name": "render", "start": {"line": 675, "column": 5}, "end": {"line": 687, "column": 10}, "value": 13},
+          {"unit_name": "render", "start": {"line": 693, "column": 5}, "end": {"line": 699, "column": 58}, "value": 7},
+          {"unit_name": "__init__", "start": {"line": 716, "column": 5}, "end": {"line": 736, "column": 10}, "value": 21},
+          {"unit_name": "render_speed", "start": {"line": 739, "column": 5}, "end": {"line": 756, "column": 83}, "value": 11},
+          {"unit_name": "render", "start": {"line": 758, "column": 5}, "end": {"line": 771, "column": 20}, "value": 14},
+          {"unit_name": "__init__", "start": {"line": 785, "column": 5}, "end": {"line": 793, "column": 52}, "value": 9},
+          {"unit_name": "render", "start": {"line": 795, "column": 5}, "end": {"line": 819, "column": 44}, "value": 19},
+          {"unit_name": "render", "start": {"line": 825, "column": 5}, "end": {"line": 828, "column": 58}, "value": 4},
+          {"unit_name": "render", "start": {"line": 834, "column": 5}, "end": {"line": 837, "column": 64}, "value": 4},
+          {"unit_name": "__init__", "start": {"line": 852, "column": 5}, "end": {"line": 854, "column": 52}, "value": 3},
+          {"unit_name": "render", "start": {"line": 856, "column": 5}, "end": {"line": 864, "column": 10}, "value": 9},
+          {"unit_name": "__init__", "start": {"line": 874, "column": 5}, "end": {"line": 878, "column": 52}, "value": 5},
+          {"unit_name": "render", "start": {"line": 880, "column": 5}, "end": {"line": 913, "column": 29}, "value": 30},
+          {"unit_name": "render", "start": {"line": 919, "column": 5}, "end": {"line": 925, "column": 68}, "value": 7},
+          {"unit_name": "get_time", "start": {"line": 985, "column": 5}, "end": {"line": 987, "column": 32}, "value": 3},
+          {"unit_name": "started", "start": {"line": 990, "column": 5}, "end": {"line": 992, "column": 43}, "value": 3},
+          {"unit_name": "remaining", "start": {"line": 995, "column": 5}, "end": {"line": 999, "column": 43}, "value": 5},
+          {"unit_name": "elapsed", "start": {"line": 1002, "column": 5}, "end": {"line": 1008, "column": 49}, "value": 7},
+          {"unit_name": "finished", "start": {"line": 1011, "column": 5}, "end": {"line": 1013, "column": 46}, "value": 3},
+          {"unit_name": "percentage", "start": {"line": 1016, "column": 5}, "end": {"line": 1022, "column": 25}, "value": 7},
+          {"unit_name": "speed", "start": {"line": 1025, "column": 5}, "end": {"line": 1040, "column": 25}, "value": 16},
+          {"unit_name": "time_remaining", "start": {"line": 1043, "column": 5}, "end": {"line": 1054, "column": 24}, "value": 12},
+          {"unit_name": "_reset", "start": {"line": 1056, "column": 5}, "end": {"line": 1060, "column": 35}, "value": 5},
+          {"unit_name": "__init__", "start": {"line": 1079, "column": 5}, "end": {"line": 1113, "column": 36}, "value": 34},
+          {"unit_name": "get_default_columns", "start": {"line": 1116, "column": 5}, "end": {"line": 1144, "column": 10}, "value": 8},
+          {"unit_name": "console", "start": {"line": 1147, "column": 5}, "end": {"line": 1148, "column": 33}, "value": 2},
+          {"unit_name": "tasks", "start": {"line": 1151, "column": 5}, "end": {"line": 1154, "column": 46}, "value": 4},
+          {"unit_name": "task_ids", "start": {"line": 1157, "column": 5}, "end": {"line": 1160, "column": 44}, "value": 4},
+          {"unit_name": "finished", "start": {"line": 1163, "column": 5}, "end": {"line": 1168, "column": 71}, "value": 6},
+          {"unit_name": "start", "start": {"line": 1170, "column": 5}, "end": {"line": 1173, "column": 42}, "value": 4},
+          {"unit_name": "stop", "start": {"line": 1175, "column": 5}, "end": {"line": 1179, "column": 33}, "value": 5},
+          {"unit_name": "__enter__", "start": {"line": 1181, "column": 5}, "end": {"line": 1183, "column": 20}, "value": 3},
+          {"unit_name": "__exit__", "start": {"line": 1185, "column": 5}, "end": {"line": 1191, "column": 20}, "value": 7},
+          {"unit_name": "track", "start": {"line": 1193, "column": 5}, "end": {"line": 1234, "column": 26}, "value": 28},
+          {"unit_name": "wrap_file", "start": {"line": 1236, "column": 5}, "end": {"line": 1276, "column": 64}, "value": 24},
+          {"unit_name": "open", "start": {"line": 1279, "column": 5}, "end": {"line": 1292, "column": 13}, "value": 14},
+          {"unit_name": "open", "start": {"line": 1295, "column": 5}, "end": {"line": 1308, "column": 13}, "value": 14},
+          {"unit_name": "open", "start": {"line": 1310, "column": 5}, "end": {"line": 1385, "column": 22}, "value": 46},
+          {"unit_name": "start_task", "start": {"line": 1387, "column": 5}, "end": {"line": 1399, "column": 50}, "value": 6},
+          {"unit_name": "stop_task", "start": {"line": 1401, "column": 5}, "end": {"line": 1414, "column": 42}, "value": 8},
+          {"unit_name": "update", "start": {"line": 1416, "column": 5}, "end": {"line": 1475, "column": 27}, "value": 45},
+          {"unit_name": "reset", "start": {"line": 1477, "column": 5}, "end": {"line": 1514, "column": 23}, "value": 28},
+          {"unit_name": "advance", "start": {"line": 1516, "column": 5}, "end": {"line": 1544, "column": 49}, "value": 23},
+          {"unit_name": "refresh", "start": {"line": 1546, "column": 5}, "end": {"line": 1549, "column": 32}, "value": 4},
+          {"unit_name": "get_renderable", "start": {"line": 1551, "column": 5}, "end": {"line": 1554, "column": 26}, "value": 4},
+          {"unit_name": "get_renderables", "start": {"line": 1556, "column": 5}, "end": {"line": 1559, "column": 20}, "value": 4},
+          {"unit_name": "make_tasks_table", "start": {"line": 1561, "column": 5}, "end": {"line": 1592, "column": 21}, "value": 24},
+          {"unit_name": "__rich__", "start": {"line": 1594, "column": 5}, "end": {"line": 1597, "column": 41}, "value": 4},
+          {"unit_name": "add_task", "start": {"line": 1599, "column": 5}, "end": {"line": 1640, "column": 30}, "value": 28},
+          {"unit_name": "remove_task", "start": {"line": 1642, "column": 5}, "end": {"line": 1650, "column": 37}, "value": 4}
+        ]
+      },
+      "rich/bar.py": {
+        "checksum": "b1b3cdc02b931efdc0eb071e59f2ad4f",
+        "language": "Python",
+        "loc": 51,
+        "profile": [25, 26, 0, 0],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 29, "column": 5}, "end": {"line": 43, "column": 57}, "value": 15},
+          {"unit_name": "__repr__", "start": {"line": 45, "column": 5}, "end": {"line": 46, "column": 61}, "value": 2},
+          {"unit_name": "__rich_console__", "start": {"line": 48, "column": 5}, "end": {"line": 84, "column": 29}, "value": 26},
+          {"unit_name": "__rich_measure__", "start": {"line": 86, "column": 5}, "end": {"line": 93, "column": 10}, "value": 8}
+        ]
+      },
+      "rich/jupyter.py": {
+        "checksum": "8cfe2008fe273b73e309ac76d94f8631",
+        "language": "Python",
+        "loc": 62,
+        "profile": [28, 34, 0, 0],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 21, "column": 5}, "end": {"line": 23, "column": 25}, "value": 3},
+          {"unit_name": "_repr_mimebundle_", "start": {"line": 25, "column": 5}, "end": {"line": 33, "column": 20}, "value": 9},
+          {"unit_name": "_repr_mimebundle_", "start": {"line": 41, "column": 5}, "end": {"line": 56, "column": 20}, "value": 16},
+          {"unit_name": "_render_segments", "start": {"line": 59, "column": 1}, "end": {"line": 81, "column": 16}, "value": 18},
+          {"unit_name": "escape", "start": {"line": 60, "column": 5}, "end": {"line": 62, "column": 84}, "value": 3},
+          {"unit_name": "display", "start": {"line": 84, "column": 1}, "end": {"line": 95, "column": 13}, "value": 9},
+          {"unit_name": "print", "start": {"line": 98, "column": 1}, "end": {"line": 101, "column": 42}, "value": 4}
+        ]
+      },
+      "rich/_cell_widths.py": {
+        "checksum": "abe97d4909bc747df4d12ef3beed9062",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "rich/ansi.py": {
+        "checksum": "ef16bac3bdd4423f47a3d7bd41ba0a5b",
+        "language": "Python",
+        "loc": 91,
+        "profile": [10, 21, 60, 0],
+        "measurements": [
+          {"unit_name": "_ansi_tokenize", "start": {"line": 28, "column": 1}, "end": {"line": 56, "column": 47}, "value": 21},
+          {"unit_name": "__init__", "start": {"line": 123, "column": 5}, "end": {"line": 124, "column": 34}, "value": 2},
+          {"unit_name": "decode", "start": {"line": 126, "column": 5}, "end": {"line": 136, "column": 41}, "value": 4},
+          {"unit_name": "decode_line", "start": {"line": 138, "column": 5}, "end": {"line": 211, "column": 20}, "value": 60},
+          {"unit_name": "read", "start": {"line": 224, "column": 5}, "end": {"line": 227, "column": 20}, "value": 4}
+        ]
+      },
+      "rich/prompt.py": {
+        "checksum": "f7a6c4ecf7764597348b21c256eff255",
+        "language": "Python",
+        "loc": 168,
+        "profile": [85, 83, 0, 0],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 23, "column": 5}, "end": {"line": 24, "column": 31}, "value": 2},
+          {"unit_name": "__rich__", "start": {"line": 26, "column": 5}, "end": {"line": 27, "column": 28}, "value": 2},
+          {"unit_name": "__init__", "start": {"line": 54, "column": 5}, "end": {"line": 76, "column": 41}, "value": 23},
+          {"unit_name": "ask", "start": {"line": 80, "column": 5}, "end": {"line": 93, "column": 12}, "value": 14},
+          {"unit_name": "ask", "start": {"line": 97, "column": 5}, "end": {"line": 109, "column": 12}, "value": 13},
+          {"unit_name": "ask", "start": {"line": 112, "column": 5}, "end": {"line": 149, "column": 55}, "value": 24},
+          {"unit_name": "render_default", "start": {"line": 151, "column": 5}, "end": {"line": 160, "column": 54}, "value": 3},
+          {"unit_name": "make_prompt", "start": {"line": 162, "column": 5}, "end": {"line": 191, "column": 22}, "value": 19},
+          {"unit_name": "get_input", "start": {"line": 194, "column": 5}, "end": {"line": 211, "column": 71}, "value": 9},
+          {"unit_name": "check_choice", "start": {"line": 213, "column": 5}, "end": {"line": 225, "column": 84}, "value": 6},
+          {"unit_name": "process_response", "start": {"line": 227, "column": 5}, "end": {"line": 256, "column": 28}, "value": 17},
+          {"unit_name": "on_validate_error", "start": {"line": 258, "column": 5}, "end": {"line": 265, "column": 34}, "value": 3},
+          {"unit_name": "pre_prompt", "start": {"line": 267, "column": 5}, "end": {"line": 268, "column": 59}, "value": 2},
+          {"unit_name": "__call__", "start": {"line": 271, "column": 5}, "end": {"line": 272, "column": 12}, "value": 2},
+          {"unit_name": "__call__", "start": {"line": 275, "column": 5}, "end": {"line": 278, "column": 12}, "value": 4},
+          {"unit_name": "__call__", "start": {"line": 280, "column": 5}, "end": {"line": 301, "column": 36}, "value": 15},
+          {"unit_name": "render_default", "start": {"line": 353, "column": 5}, "end": {"line": 356, "column": 82}, "value": 4},
+          {"unit_name": "process_response", "start": {"line": 358, "column": 5}, "end": {"line": 363, "column": 40}, "value": 6}
+        ]
+      },
+      "rich/table.py": {
+        "checksum": "a7e1aa0ebc792fd56701458e1222644e",
+        "language": "Python",
+        "loc": 633,
+        "profile": [85, 99, 234, 215],
+        "measurements": [
+          {"unit_name": "copy", "start": {"line": 117, "column": 5}, "end": {"line": 119, "column": 40}, "value": 3},
+          {"unit_name": "cells", "start": {"line": 122, "column": 5}, "end": {"line": 124, "column": 31}, "value": 3},
+          {"unit_name": "flexible", "start": {"line": 127, "column": 5}, "end": {"line": 129, "column": 38}, "value": 3},
+          {"unit_name": "__init__", "start": {"line": 189, "column": 5}, "end": {"line": 251, "column": 38}, "value": 63},
+          {"unit_name": "grid", "start": {"line": 254, "column": 5}, "end": {"line": 284, "column": 10}, "value": 20},
+          {"unit_name": "expand", "start": {"line": 287, "column": 5}, "end": {"line": 289, "column": 54}, "value": 3},
+          {"unit_name": "expand", "start": {"line": 292, "column": 5}, "end": {"line": 294, "column": 30}, "value": 3},
+          {"unit_name": "_extra_width", "start": {"line": 297, "column": 5}, "end": {"line": 304, "column": 21}, "value": 8},
+          {"unit_name": "row_count", "start": {"line": 307, "column": 5}, "end": {"line": 309, "column": 30}, "value": 3},
+          {"unit_name": "get_row_style", "start": {"line": 311, "column": 5}, "end": {"line": 319, "column": 21}, "value": 9},
+          {"unit_name": "__rich_measure__", "start": {"line": 321, "column": 5}, "end": {"line": 352, "column": 27}, "value": 30},
+          {"unit_name": "padding", "start": {"line": 355, "column": 5}, "end": {"line": 357, "column": 29}, "value": 3},
+          {"unit_name": "padding", "start": {"line": 360, "column": 5}, "end": {"line": 363, "column": 20}, "value": 4},
+          {"unit_name": "add_column", "start": {"line": 365, "column": 5}, "end": {"line": 421, "column": 36}, "value": 37},
+          {"unit_name": "add_row", "start": {"line": 423, "column": 5}, "end": {"line": 468, "column": 68}, "value": 32},
+          {"unit_name": "add_cell", "start": {"line": 441, "column": 9}, "end": {"line": 442, "column": 45}, "value": 2},
+          {"unit_name": "add_section", "start": {"line": 470, "column": 5}, "end": {"line": 474, "column": 45}, "value": 4},
+          {"unit_name": "__rich_console__", "start": {"line": 476, "column": 5}, "end": {"line": 521, "column": 14}, "value": 31},
+          {"unit_name": "render_annotation", "start": {"line": 497, "column": 9}, "end": {"line": 507, "column": 14}, "value": 11},
+          {"unit_name": "_calculate_column_widths", "start": {"line": 523, "column": 5}, "end": {"line": 585, "column": 22}, "value": 58},
+          {"unit_name": "_collapse_widths", "start": {"line": 588, "column": 5}, "end": {"line": 624, "column": 22}, "value": 27},
+          {"unit_name": "_get_cells", "start": {"line": 626, "column": 5}, "end": {"line": 697, "column": 18}, "value": 43},
+          {"unit_name": "get_padding", "start": {"line": 641, "column": 9}, "end": {"line": 664, "column": 28}, "value": 22},
+          {"unit_name": "_get_padding_width", "start": {"line": 699, "column": 5}, "end": {"line": 705, "column": 36}, "value": 7},
+          {"unit_name": "_measure_column", "start": {"line": 707, "column": 5}, "end": {"line": 745, "column": 27}, "value": 33},
+          {"unit_name": "_render", "start": {"line": 747, "column": 5}, "end": {"line": 926, "column": 27}, "value": 152},
+          {"unit_name": "align_cell", "start": {"line": 839, "column": 13}, "end": {"line": 854, "column": 77}, "value": 15},
+          {"unit_name": "header", "start": {"line": 968, "column": 9}, "end": {"line": 971, "column": 28}, "value": 4}
+        ]
+      },
+      "rich/__init__.py": {
+        "checksum": "22d300464990c2c97ac83d618af8bc30",
+        "language": "Python",
+        "loc": 81,
+        "profile": [24, 26, 31, 0],
+        "measurements": [
+          {"unit_name": "get_console", "start": {"line": 23, "column": 1}, "end": {"line": 36, "column": 20}, "value": 7},
+          {"unit_name": "reconfigure", "start": {"line": 39, "column": 1}, "end": {"line": 50, "column": 45}, "value": 6},
+          {"unit_name": "print", "start": {"line": 53, "column": 1}, "end": {"line": 74, "column": 59}, "value": 11},
+          {"unit_name": "print_json", "start": {"line": 77, "column": 1}, "end": {"line": 117, "column": 6}, "value": 26},
+          {"unit_name": "inspect", "start": {"line": 120, "column": 1}, "end": {"line": 173, "column": 29}, "value": 31}
+        ]
+      },
+      "rich/markup.py": {
+        "checksum": "d36fbfe8ab52beaf9b5e1c28190563bb",
+        "language": "Python",
+        "loc": 137,
+        "profile": [21, 24, 0, 92],
+        "measurements": [
+          {"unit_name": "__str__", "start": {"line": 28, "column": 5}, "end": {"line": 31, "column": 10}, "value": 4},
+          {"unit_name": "markup", "start": {"line": 34, "column": 5}, "end": {"line": 40, "column": 10}, "value": 7},
+          {"unit_name": "escape_backslashes", "start": {"line": 61, "column": 5}, "end": {"line": 64, "column": 53}, "value": 4},
+          {"unit_name": "_parse", "start": {"line": 73, "column": 1}, "end": {"line": 103, "column": 48}, "value": 24},
+          {"unit_name": "render", "start": {"line": 106, "column": 1}, "end": {"line": 231, "column": 16}, "value": 92},
+          {"unit_name": "pop_style", "start": {"line": 146, "column": 5}, "end": {"line": 151, "column": 35}, "value": 6}
+        ]
+      },
+      "rich/box.py": {
+        "checksum": "f28543c5821335d638a1e86cee75d7bc",
+        "language": "Python",
+        "loc": 101,
+        "profile": [37, 24, 40, 0],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 33, "column": 5}, "end": {"line": 65, "column": 10}, "value": 24},
+          {"unit_name": "__repr__", "start": {"line": 67, "column": 5}, "end": {"line": 68, "column": 26}, "value": 2},
+          {"unit_name": "__str__", "start": {"line": 70, "column": 5}, "end": {"line": 71, "column": 25}, "value": 2},
+          {"unit_name": "substitute", "start": {"line": 73, "column": 5}, "end": {"line": 89, "column": 19}, "value": 8},
+          {"unit_name": "get_plain_headed_box", "start": {"line": 91, "column": 5}, "end": {"line": 99, "column": 58}, "value": 3},
+          {"unit_name": "get_top", "start": {"line": 101, "column": 5}, "end": {"line": 119, "column": 30}, "value": 11},
+          {"unit_name": "get_row", "start": {"line": 121, "column": 5}, "end": {"line": 168, "column": 30}, "value": 40},
+          {"unit_name": "get_bottom", "start": {"line": 170, "column": 5}, "end": {"line": 188, "column": 30}, "value": 11}
+        ]
+      },
+      "rich/syntax.py": {
+        "checksum": "36e1491ca83b0c9a77506a374cddb22d",
+        "language": "Python",
+        "loc": 506,
+        "profile": [135, 141, 110, 120],
+        "measurements": [
+          {"unit_name": "get_style_for_token", "start": {"line": 126, "column": 5}, "end": {"line": 128, "column": 34}, "value": 3},
+          {"unit_name": "get_background_style", "start": {"line": 131, "column": 5}, "end": {"line": 133, "column": 34}, "value": 3},
+          {"unit_name": "__init__", "start": {"line": 139, "column": 5}, "end": {"line": 150, "column": 71}, "value": 11},
+          {"unit_name": "get_style_for_token", "start": {"line": 152, "column": 5}, "end": {"line": 172, "column": 21}, "value": 21},
+          {"unit_name": "get_background_style", "start": {"line": 174, "column": 5}, "end": {"line": 175, "column": 38}, "value": 2},
+          {"unit_name": "__init__", "start": {"line": 181, "column": 5}, "end": {"line": 185, "column": 55}, "value": 5},
+          {"unit_name": "get_style_for_token", "start": {"line": 187, "column": 5}, "end": {"line": 205, "column": 25}, "value": 16},
+          {"unit_name": "get_background_style", "start": {"line": 207, "column": 5}, "end": {"line": 208, "column": 38}, "value": 2},
+          {"unit_name": "get_theme", "start": {"line": 252, "column": 5}, "end": {"line": 261, "column": 21}, "value": 10},
+          {"unit_name": "__init__", "start": {"line": 263, "column": 5}, "end": {"line": 299, "column": 64}, "value": 36},
+          {"unit_name": "from_path", "start": {"line": 302, "column": 5}, "end": {"line": 362, "column": 10}, "value": 38},
+          {"unit_name": "guess_lexer", "start": {"line": 365, "column": 5}, "end": {"line": 404, "column": 26}, "value": 23},
+          {"unit_name": "_get_base_style", "start": {"line": 406, "column": 5}, "end": {"line": 409, "column": 29}, "value": 4},
+          {"unit_name": "_get_token_color", "start": {"line": 411, "column": 5}, "end": {"line": 421, "column": 27}, "value": 4},
+          {"unit_name": "lexer", "start": {"line": 424, "column": 5}, "end": {"line": 440, "column": 24}, "value": 13},
+          {"unit_name": "default_lexer", "start": {"line": 443, "column": 5}, "end": {"line": 450, "column": 10}, "value": 8},
+          {"unit_name": "highlight", "start": {"line": 452, "column": 5}, "end": {"line": 535, "column": 20}, "value": 36},
+          {"unit_name": "line_tokenize", "start": {"line": 490, "column": 17}, "end": {"line": 497, "column": 68}, "value": 7},
+          {"unit_name": "tokens_to_spans", "start": {"line": 499, "column": 17}, "end": {"line": 520, "column": 38}, "value": 19},
+          {"unit_name": "stylize_range", "start": {"line": 537, "column": 5}, "end": {"line": 556, "column": 10}, "value": 11},
+          {"unit_name": "_get_line_numbers_color", "start": {"line": 558, "column": 5}, "end": {"line": 571, "column": 45}, "value": 14},
+          {"unit_name": "_numbers_column_width", "start": {"line": 574, "column": 5}, "end": {"line": 582, "column": 28}, "value": 9},
+          {"unit_name": "_get_number_styles", "start": {"line": 584, "column": 5}, "end": {"line": 605, "column": 70}, "value": 22},
+          {"unit_name": "__rich_measure__", "start": {"line": 607, "column": 5}, "end": {"line": 623, "column": 62}, "value": 17},
+          {"unit_name": "__rich_console__", "start": {"line": 625, "column": 5}, "end": {"line": 632, "column": 27}, "value": 8},
+          {"unit_name": "_get_syntax", "start": {"line": 634, "column": 5}, "end": {"line": 766, "column": 35}, "value": 120},
+          {"unit_name": "_apply_stylized_ranges", "start": {"line": 768, "column": 5}, "end": {"line": 799, "column": 67}, "value": 23},
+          {"unit_name": "_process_code", "start": {"line": 801, "column": 5}, "end": {"line": 819, "column": 42}, "value": 9},
+          {"unit_name": "_get_code_index_for_syntax_position", "start": {"line": 822, "column": 1}, "end": {"line": 846, "column": 55}, "value": 12}
+        ]
+      },
+      "rich/color_triplet.py": {
+        "checksum": "9f03fdecbcd28eb49a7572a2efc85d3a",
+        "language": "Python",
+        "loc": 12,
+        "profile": [12, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "hex", "start": {"line": 15, "column": 5}, "end": {"line": 18, "column": 50}, "value": 4},
+          {"unit_name": "rgb", "start": {"line": 21, "column": 5}, "end": {"line": 28, "column": 44}, "value": 4},
+          {"unit_name": "normalized", "start": {"line": 31, "column": 5}, "end": {"line": 38, "column": 56}, "value": 4}
+        ]
+      },
+      "rich/live.py": {
+        "checksum": "650e50b96d1f4aa938251eac204b18fb",
+        "language": "Python",
+        "loc": 188,
+        "profile": [61, 92, 35, 0],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 19, "column": 5}, "end": {"line": 23, "column": 38}, "value": 5},
+          {"unit_name": "stop", "start": {"line": 25, "column": 5}, "end": {"line": 26, "column": 24}, "value": 2},
+          {"unit_name": "run", "start": {"line": 28, "column": 5}, "end": {"line": 32, "column": 40}, "value": 5},
+          {"unit_name": "__init__", "start": {"line": 51, "column": 5}, "end": {"line": 89, "column": 10}, "value": 35},
+          {"unit_name": "is_started", "start": {"line": 92, "column": 5}, "end": {"line": 94, "column": 29}, "value": 3},
+          {"unit_name": "get_renderable", "start": {"line": 96, "column": 5}, "end": {"line": 102, "column": 32}, "value": 7},
+          {"unit_name": "start", "start": {"line": 104, "column": 5}, "end": {"line": 132, "column": 45}, "value": 21},
+          {"unit_name": "stop", "start": {"line": 134, "column": 5}, "end": {"line": 163, "column": 48}, "value": 27},
+          {"unit_name": "__enter__", "start": {"line": 165, "column": 5}, "end": {"line": 167, "column": 20}, "value": 3},
+          {"unit_name": "__exit__", "start": {"line": 169, "column": 5}, "end": {"line": 175, "column": 20}, "value": 7},
+          {"unit_name": "_enable_redirect_io", "start": {"line": 177, "column": 5}, "end": {"line": 185, "column": 81}, "value": 9},
+          {"unit_name": "_disable_redirect_io", "start": {"line": 187, "column": 5}, "end": {"line": 194, "column": 40}, "value": 8},
+          {"unit_name": "renderable", "start": {"line": 197, "column": 5}, "end": {"line": 204, "column": 70}, "value": 4},
+          {"unit_name": "update", "start": {"line": 206, "column": 5}, "end": {"line": 218, "column": 31}, "value": 8},
+          {"unit_name": "refresh", "start": {"line": 220, "column": 5}, "end": {"line": 247, "column": 50}, "value": 26},
+          {"unit_name": "process_renderables", "start": {"line": 249, "column": 5}, "end": {"line": 268, "column": 27}, "value": 18}
+        ]
+      },
+      "rich/logging.py": {
+        "checksum": "36da8fb7b23fa11ef7f0030878327891",
+        "language": "Python",
+        "loc": 147,
+        "profile": [28, 23, 96, 0],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 65, "column": 5}, "end": {"line": 115, "column": 33}, "value": 51},
+          {"unit_name": "get_level_text", "start": {"line": 117, "column": 5}, "end": {"line": 130, "column": 26}, "value": 7},
+          {"unit_name": "emit", "start": {"line": 132, "column": 5}, "end": {"line": 180, "column": 41}, "value": 45},
+          {"unit_name": "render_message", "start": {"line": 182, "column": 5}, "end": {"line": 205, "column": 28}, "value": 12},
+          {"unit_name": "render", "start": {"line": 207, "column": 5}, "end": {"line": 239, "column": 30}, "value": 23},
+          {"unit_name": "divide", "start": {"line": 283, "column": 5}, "end": {"line": 291, "column": 61}, "value": 9}
+        ]
+      },
+      "rich/palette.py": {
+        "checksum": "f245863ad0c6d4c221ef77ec6b2d0674",
+        "language": "Python",
+        "loc": 59,
+        "profile": [38, 21, 0, 0],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 14, "column": 5}, "end": {"line": 15, "column": 30}, "value": 2},
+          {"unit_name": "__getitem__", "start": {"line": 17, "column": 5}, "end": {"line": 18, "column": 51}, "value": 2},
+          {"unit_name": "__rich__", "start": {"line": 20, "column": 5}, "end": {"line": 41, "column": 21}, "value": 21},
+          {"unit_name": "match", "start": {"line": 45, "column": 5}, "end": {"line": 72, "column": 25}, "value": 8},
+          {"unit_name": "get_color_distance", "start": {"line": 58, "column": 9}, "end": {"line": 69, "column": 14}, "value": 12},
+          {"unit_name": "__rich_console__", "start": {"line": 84, "column": 9}, "end": {"line": 97, "column": 37}, "value": 14}
+        ]
+      },
+      "rich/filesize.py": {
+        "checksum": "6a7b170b06ab238919af8f24cbf5a63a",
+        "language": "Python",
+        "loc": 43,
+        "profile": [21, 22, 0, 0],
+        "measurements": [
+          {"unit_name": "_to_str", "start": {"line": 18, "column": 1}, "end": {"line": 40, "column": 6}, "value": 22},
+          {"unit_name": "pick_unit_and_suffix", "start": {"line": 43, "column": 1}, "end": {"line": 49, "column": 24}, "value": 7},
+          {"unit_name": "decimal", "start": {"line": 52, "column": 1}, "end": {"line": 88, "column": 6}, "value": 14}
+        ]
+      },
+      "rich/markdown.py": {
+        "checksum": "7290b19acb80e80140cdf6473960cbff",
+        "language": "Python",
+        "loc": 401,
+        "profile": [280, 19, 0, 102],
+        "measurements": [
+          {"unit_name": "create", "start": {"line": 34, "column": 5}, "end": {"line": 44, "column": 21}, "value": 3},
+          {"unit_name": "on_enter", "start": {"line": 46, "column": 5}, "end": {"line": 47, "column": 132}, "value": 2},
+          {"unit_name": "on_text", "start": {"line": 53, "column": 5}, "end": {"line": 54, "column": 127}, "value": 2},
+          {"unit_name": "on_leave", "start": {"line": 60, "column": 5}, "end": {"line": 61, "column": 134}, "value": 2},
+          {"unit_name": "on_child_close", "start": {"line": 67, "column": 5}, "end": {"line": 79, "column": 20}, "value": 3},
+          {"unit_name": "__rich_console__", "start": {"line": 81, "column": 5}, "end": {"line": 84, "column": 18}, "value": 4},
+          {"unit_name": "on_enter", "start": {"line": 101, "column": 5}, "end": {"line": 103, "column": 41}, "value": 3},
+          {"unit_name": "on_text", "start": {"line": 105, "column": 5}, "end": {"line": 106, "column": 89}, "value": 2},
+          {"unit_name": "on_leave", "start": {"line": 108, "column": 5}, "end": {"line": 109, "column": 30}, "value": 2},
+          {"unit_name": "create", "start": {"line": 119, "column": 5}, "end": {"line": 120, "column": 55}, "value": 2},
+          {"unit_name": "__init__", "start": {"line": 122, "column": 5}, "end": {"line": 123, "column": 31}, "value": 2},
+          {"unit_name": "__rich_console__", "start": {"line": 125, "column": 5}, "end": {"line": 129, "column": 24}, "value": 5},
+          {"unit_name": "create", "start": {"line": 136, "column": 5}, "end": {"line": 137, "column": 30}, "value": 2},
+          {"unit_name": "on_enter", "start": {"line": 139, "column": 5}, "end": {"line": 141, "column": 45}, "value": 3},
+          {"unit_name": "__init__", "start": {"line": 143, "column": 5}, "end": {"line": 146, "column": 27}, "value": 4},
+          {"unit_name": "__rich_console__", "start": {"line": 148, "column": 5}, "end": {"line": 164, "column": 23}, "value": 15},
+          {"unit_name": "create", "start": {"line": 173, "column": 5}, "end": {"line": 176, "column": 62}, "value": 4},
+          {"unit_name": "__init__", "start": {"line": 178, "column": 5}, "end": {"line": 180, "column": 27}, "value": 3},
+          {"unit_name": "__rich_console__", "start": {"line": 182, "column": 5}, "end": {"line": 189, "column": 21}, "value": 8},
+          {"unit_name": "__init__", "start": {"line": 197, "column": 5}, "end": {"line": 198, "column": 51}, "value": 2},
+          {"unit_name": "on_child_close", "start": {"line": 200, "column": 5}, "end": {"line": 202, "column": 21}, "value": 3},
+          {"unit_name": "__rich_console__", "start": {"line": 204, "column": 5}, "end": {"line": 215, "column": 27}, "value": 12},
+          {"unit_name": "__rich_console__", "start": {"line": 223, "column": 5}, "end": {"line": 227, "column": 32}, "value": 5},
+          {"unit_name": "__init__", "start": {"line": 233, "column": 5}, "end": {"line": 235, "column": 50}, "value": 3},
+          {"unit_name": "on_child_close", "start": {"line": 237, "column": 5}, "end": {"line": 244, "column": 21}, "value": 8},
+          {"unit_name": "__rich_console__", "start": {"line": 246, "column": 5}, "end": {"line": 260, "column": 20}, "value": 12},
+          {"unit_name": "__init__", "start": {"line": 266, "column": 5}, "end": {"line": 267, "column": 48}, "value": 2},
+          {"unit_name": "on_child_close", "start": {"line": 269, "column": 5}, "end": {"line": 272, "column": 21}, "value": 4},
+          {"unit_name": "__init__", "start": {"line": 278, "column": 5}, "end": {"line": 279, "column": 46}, "value": 2},
+          {"unit_name": "on_child_close", "start": {"line": 281, "column": 5}, "end": {"line": 284, "column": 21}, "value": 4},
+          {"unit_name": "__init__", "start": {"line": 290, "column": 5}, "end": {"line": 291, "column": 48}, "value": 2},
+          {"unit_name": "on_child_close", "start": {"line": 293, "column": 5}, "end": {"line": 296, "column": 21}, "value": 4},
+          {"unit_name": "create", "start": {"line": 304, "column": 5}, "end": {"line": 318, "column": 36}, "value": 13},
+          {"unit_name": "__init__", "start": {"line": 320, "column": 5}, "end": {"line": 322, "column": 31}, "value": 3},
+          {"unit_name": "on_text", "start": {"line": 324, "column": 5}, "end": {"line": 327, "column": 39}, "value": 4},
+          {"unit_name": "create", "start": {"line": 334, "column": 5}, "end": {"line": 335, "column": 65}, "value": 2},
+          {"unit_name": "__init__", "start": {"line": 337, "column": 5}, "end": {"line": 340, "column": 37}, "value": 4},
+          {"unit_name": "on_child_close", "start": {"line": 342, "column": 5}, "end": {"line": 345, "column": 21}, "value": 4},
+          {"unit_name": "__rich_console__", "start": {"line": 347, "column": 5}, "end": {"line": 359, "column": 18}, "value": 13},
+          {"unit_name": "__init__", "start": {"line": 367, "column": 5}, "end": {"line": 368, "column": 51}, "value": 2},
+          {"unit_name": "on_child_close", "start": {"line": 370, "column": 5}, "end": {"line": 372, "column": 21}, "value": 3},
+          {"unit_name": "render_bullet", "start": {"line": 374, "column": 5}, "end": {"line": 385, "column": 27}, "value": 11},
+          {"unit_name": "render_number", "start": {"line": 387, "column": 5}, "end": {"line": 401, "column": 27}, "value": 14},
+          {"unit_name": "create", "start": {"line": 406, "column": 5}, "end": {"line": 408, "column": 44}, "value": 3},
+          {"unit_name": "__init__", "start": {"line": 410, "column": 5}, "end": {"line": 412, "column": 25}, "value": 3},
+          {"unit_name": "create", "start": {"line": 421, "column": 5}, "end": {"line": 431, "column": 73}, "value": 3},
+          {"unit_name": "__init__", "start": {"line": 433, "column": 5}, "end": {"line": 437, "column": 27}, "value": 5},
+          {"unit_name": "on_enter", "start": {"line": 439, "column": 5}, "end": {"line": 442, "column": 34}, "value": 4},
+          {"unit_name": "__rich_console__", "start": {"line": 444, "column": 5}, "end": {"line": 452, "column": 19}, "value": 9},
+          {"unit_name": "__init__", "start": {"line": 458, "column": 5}, "end": {"line": 473, "column": 82}, "value": 15},
+          {"unit_name": "current_style", "start": {"line": 476, "column": 5}, "end": {"line": 478, "column": 40}, "value": 3},
+          {"unit_name": "on_text", "start": {"line": 480, "column": 5}, "end": {"line": 489, "column": 47}, "value": 10},
+          {"unit_name": "enter_style", "start": {"line": 491, "column": 5}, "end": {"line": 495, "column": 34}, "value": 5},
+          {"unit_name": "leave_style", "start": {"line": 497, "column": 5}, "end": {"line": 500, "column": 21}, "value": 4},
+          {"unit_name": "__init__", "start": {"line": 539, "column": 5}, "end": {"line": 557, "column": 65}, "value": 19},
+          {"unit_name": "_flatten_tokens", "start": {"line": 559, "column": 5}, "end": {"line": 567, "column": 28}, "value": 9},
+          {"unit_name": "__rich_console__", "start": {"line": 569, "column": 5}, "end": {"line": 686, "column": 48}, "value": 102}
+        ]
+      },
+      "rich/containers.py": {
+        "checksum": "eb43fe0936b0da7e7652db5000d7255d",
+        "language": "Python",
+        "loc": 103,
+        "profile": [55, 0, 48, 0],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 33, "column": 5}, "end": {"line": 38, "column": 10}, "value": 6},
+          {"unit_name": "__rich_console__", "start": {"line": 40, "column": 5}, "end": {"line": 44, "column": 37}, "value": 5},
+          {"unit_name": "__rich_measure__", "start": {"line": 46, "column": 5}, "end": {"line": 57, "column": 39}, "value": 12},
+          {"unit_name": "append", "start": {"line": 59, "column": 5}, "end": {"line": 60, "column": 45}, "value": 2},
+          {"unit_name": "__iter__", "start": {"line": 62, "column": 5}, "end": {"line": 63, "column": 39}, "value": 2},
+          {"unit_name": "__init__", "start": {"line": 69, "column": 5}, "end": {"line": 70, "column": 48}, "value": 2},
+          {"unit_name": "__repr__", "start": {"line": 72, "column": 5}, "end": {"line": 73, "column": 41}, "value": 2},
+          {"unit_name": "__iter__", "start": {"line": 75, "column": 5}, "end": {"line": 76, "column": 33}, "value": 2},
+          {"unit_name": "__getitem__", "start": {"line": 79, "column": 5}, "end": {"line": 80, "column": 12}, "value": 2},
+          {"unit_name": "__getitem__", "start": {"line": 83, "column": 5}, "end": {"line": 84, "column": 12}, "value": 2},
+          {"unit_name": "__getitem__", "start": {"line": 86, "column": 5}, "end": {"line": 87, "column": 34}, "value": 2},
+          {"unit_name": "__setitem__", "start": {"line": 89, "column": 5}, "end": {"line": 91, "column": 20}, "value": 3},
+          {"unit_name": "__len__", "start": {"line": 93, "column": 5}, "end": {"line": 94, "column": 37}, "value": 2},
+          {"unit_name": "__rich_console__", "start": {"line": 96, "column": 5}, "end": {"line": 100, "column": 31}, "value": 5},
+          {"unit_name": "append", "start": {"line": 102, "column": 5}, "end": {"line": 103, "column": 33}, "value": 2},
+          {"unit_name": "extend", "start": {"line": 105, "column": 5}, "end": {"line": 106, "column": 34}, "value": 2},
+          {"unit_name": "pop", "start": {"line": 108, "column": 5}, "end": {"line": 109, "column": 38}, "value": 2},
+          {"unit_name": "justify", "start": {"line": 111, "column": 5}, "end": {"line": 167, "column": 57}, "value": 48}
+        ]
+      },
+      "rich/_spinners.py": {
+        "checksum": "5dbf3829fc85ea67dea473d750f7a8ca",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "rich/terminal_theme.py": {
+        "checksum": "26697a919bf9b0eed369a89647145303",
+        "language": "Python",
+        "loc": 10,
+        "profile": [10, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 20, "column": 5}, "end": {"line": 29, "column": 64}, "value": 10}
+        ]
+      },
+      "rich/_windows.py": {
+        "checksum": "21fce9f4d68eabd2cd4fe064bea777b4",
+        "language": "Python",
+        "loc": 21,
+        "profile": [3, 18, 0, 0],
+        "measurements": [
+          {"unit_name": "get_windows_console_features", "start": {"line": 34, "column": 5}, "end": {"line": 36, "column": 24}, "value": 3},
+          {"unit_name": "get_windows_console_features", "start": {"line": 40, "column": 5}, "end": {"line": 61, "column": 24}, "value": 18}
+        ]
+      },
+      "rich/emoji.py": {
+        "checksum": "c126e53e27456a3f428ab93a6400160d",
+        "language": "Python",
+        "loc": 27,
+        "profile": [11, 16, 0, 0],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 32, "column": 5}, "end": {"line": 55, "column": 57}, "value": 16},
+          {"unit_name": "replace", "start": {"line": 58, "column": 5}, "end": {"line": 67, "column": 36}, "value": 3},
+          {"unit_name": "__repr__", "start": {"line": 69, "column": 5}, "end": {"line": 70, "column": 40}, "value": 2},
+          {"unit_name": "__str__", "start": {"line": 72, "column": 5}, "end": {"line": 73, "column": 26}, "value": 2},
+          {"unit_name": "__rich_console__", "start": {"line": 75, "column": 5}, "end": {"line": 78, "column": 65}, "value": 4}
+        ]
+      },
+      "rich/_timer.py": {
+        "checksum": "ae43057547af31fdad66b2df35d85a23",
+        "language": "Python",
+        "loc": 7,
+        "profile": [7, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "timer", "start": {"line": 13, "column": 1}, "end": {"line": 19, "column": 51}, "value": 7}
+        ]
+      },
+      "rich/_extension.py": {
+        "checksum": "19548f1789fdf569e1a7aeb278d1b9ee",
+        "language": "Python",
+        "loc": 5,
+        "profile": [5, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "load_ipython_extension", "start": {"line": 4, "column": 1}, "end": {"line": 10, "column": 17}, "value": 5}
+        ]
+      },
+      "rich/pager.py": {
+        "checksum": "d2f3f5a559bcf79942ce62b742fb2ce2",
+        "language": "Python",
+        "loc": 7,
+        "profile": [7, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "show", "start": {"line": 9, "column": 5}, "end": {"line": 10, "column": 113}, "value": 2},
+          {"unit_name": "_pager", "start": {"line": 20, "column": 5}, "end": {"line": 21, "column": 50}, "value": 2},
+          {"unit_name": "show", "start": {"line": 23, "column": 5}, "end": {"line": 25, "column": 29}, "value": 3}
+        ]
+      },
+      "rich/_win32_console.py": {
+        "checksum": "45631c2b70344579855f760adefe9d3a",
+        "language": "Python",
+        "loc": 232,
+        "profile": [185, 47, 0, 0],
+        "measurements": [
+          {"unit_name": "from_param", "start": {"line": 44, "column": 5}, "end": {"line": 54, "column": 43}, "value": 3},
+          {"unit_name": "GetStdHandle", "start": {"line": 78, "column": 1}, "end": {"line": 87, "column": 56}, "value": 3},
+          {"unit_name": "GetConsoleMode", "start": {"line": 95, "column": 1}, "end": {"line": 114, "column": 30}, "value": 7},
+          {"unit_name": "FillConsoleOutputCharacter", "start": {"line": 128, "column": 1}, "end": {"line": 155, "column": 29}, "value": 18},
+          {"unit_name": "FillConsoleOutputAttribute", "start": {"line": 169, "column": 1}, "end": {"line": 193, "column": 29}, "value": 14},
+          {"unit_name": "SetConsoleTextAttribute", "start": {"line": 204, "column": 1}, "end": {"line": 217, "column": 66}, "value": 5},
+          {"unit_name": "GetConsoleScreenBufferInfo", "start": {"line": 228, "column": 1}, "end": {"line": 241, "column": 38}, "value": 7},
+          {"unit_name": "SetConsoleCursorPosition", "start": {"line": 252, "column": 1}, "end": {"line": 264, "column": 63}, "value": 5},
+          {"unit_name": "GetConsoleCursorInfo", "start": {"line": 275, "column": 1}, "end": {"line": 288, "column": 71}, "value": 5},
+          {"unit_name": "SetConsoleCursorInfo", "start": {"line": 299, "column": 1}, "end": {"line": 311, "column": 71}, "value": 5},
+          {"unit_name": "SetConsoleTitle", "start": {"line": 319, "column": 1}, "end": {"line": 328, "column": 41}, "value": 3},
+          {"unit_name": "__init__", "start": {"line": 362, "column": 5}, "end": {"line": 374, "column": 32}, "value": 11},
+          {"unit_name": "cursor_position", "start": {"line": 377, "column": 5}, "end": {"line": 384, "column": 60}, "value": 4},
+          {"unit_name": "screen_size", "start": {"line": 387, "column": 5}, "end": {"line": 394, "column": 72}, "value": 4},
+          {"unit_name": "write_text", "start": {"line": 396, "column": 5}, "end": {"line": 403, "column": 21}, "value": 4},
+          {"unit_name": "write_styled", "start": {"line": 405, "column": 5}, "end": {"line": 442, "column": 77}, "value": 29},
+          {"unit_name": "move_cursor_to", "start": {"line": 444, "column": 5}, "end": {"line": 452, "column": 68}, "value": 5},
+          {"unit_name": "erase_line", "start": {"line": 454, "column": 5}, "end": {"line": 468, "column": 10}, "value": 15},
+          {"unit_name": "erase_end_of_line", "start": {"line": 470, "column": 5}, "end": {"line": 482, "column": 10}, "value": 13},
+          {"unit_name": "erase_start_of_line", "start": {"line": 484, "column": 5}, "end": {"line": 491, "column": 10}, "value": 8},
+          {"unit_name": "move_cursor_up", "start": {"line": 493, "column": 5}, "end": {"line": 501, "column": 10}, "value": 9},
+          {"unit_name": "move_cursor_down", "start": {"line": 503, "column": 5}, "end": {"line": 512, "column": 10}, "value": 10},
+          {"unit_name": "move_cursor_forward", "start": {"line": 514, "column": 5}, "end": {"line": 524, "column": 10}, "value": 11},
+          {"unit_name": "move_cursor_to_column", "start": {"line": 526, "column": 5}, "end": {"line": 533, "column": 87}, "value": 4},
+          {"unit_name": "move_cursor_backward", "start": {"line": 535, "column": 5}, "end": {"line": 545, "column": 10}, "value": 11},
+          {"unit_name": "hide_cursor", "start": {"line": 547, "column": 5}, "end": {"line": 551, "column": 73}, "value": 5},
+          {"unit_name": "show_cursor", "start": {"line": 553, "column": 5}, "end": {"line": 557, "column": 71}, "value": 5},
+          {"unit_name": "set_title", "start": {"line": 559, "column": 5}, "end": {"line": 566, "column": 31}, "value": 4},
+          {"unit_name": "_get_cursor_size", "start": {"line": 568, "column": 5}, "end": {"line": 572, "column": 39}, "value": 5}
+        ]
+      },
+      "rich/protocol.py": {
+        "checksum": "d212a02ac96d4466d30806f6e749fb4f",
+        "language": "Python",
+        "loc": 21,
+        "profile": [21, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "is_renderable", "start": {"line": 10, "column": 1}, "end": {"line": 16, "column": 6}, "value": 7},
+          {"unit_name": "rich_cast", "start": {"line": 19, "column": 1}, "end": {"line": 42, "column": 44}, "value": 14}
+        ]
+      },
+      "rich/align.py": {
+        "checksum": "5c16e064c4679e43d138db4e7c2d081a",
+        "language": "Python",
+        "loc": 214,
+        "profile": [29, 107, 78, 0],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 39, "column": 5}, "end": {"line": 64, "column": 29}, "value": 26},
+          {"unit_name": "__repr__", "start": {"line": 66, "column": 5}, "end": {"line": 67, "column": 61}, "value": 2},
+          {"unit_name": "left", "start": {"line": 70, "column": 5}, "end": {"line": 89, "column": 10}, "value": 20},
+          {"unit_name": "center", "start": {"line": 92, "column": 5}, "end": {"line": 111, "column": 10}, "value": 20},
+          {"unit_name": "right", "start": {"line": 114, "column": 5}, "end": {"line": 133, "column": 10}, "value": 20},
+          {"unit_name": "__rich_console__", "start": {"line": 135, "column": 5}, "end": {"line": 225, "column": 33}, "value": 47},
+          {"unit_name": "generate_segments", "start": {"line": 153, "column": 9}, "end": {"line": 190, "column": 35}, "value": 31},
+          {"unit_name": "blank_lines", "start": {"line": 198, "column": 9}, "end": {"line": 201, "column": 37}, "value": 4},
+          {"unit_name": "__rich_measure__", "start": {"line": 227, "column": 5}, "end": {"line": 231, "column": 27}, "value": 5},
+          {"unit_name": "__init__", "start": {"line": 246, "column": 5}, "end": {"line": 252, "column": 27}, "value": 7},
+          {"unit_name": "__repr__", "start": {"line": 254, "column": 5}, "end": {"line": 255, "column": 54}, "value": 2},
+          {"unit_name": "__rich_console__", "start": {"line": 257, "column": 5}, "end": {"line": 282, "column": 49}, "value": 21},
+          {"unit_name": "blank_lines", "start": {"line": 271, "column": 9}, "end": {"line": 274, "column": 31}, "value": 4},
+          {"unit_name": "__rich_measure__", "start": {"line": 284, "column": 5}, "end": {"line": 288, "column": 27}, "value": 5}
+        ]
+      },
+      "rich/padding.py": {
+        "checksum": "67ed513226b278392452859f7a435571",
+        "language": "Python",
+        "loc": 86,
+        "profile": [42, 0, 44, 0],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 33, "column": 5}, "end": {"line": 44, "column": 29}, "value": 12},
+          {"unit_name": "indent", "start": {"line": 47, "column": 5}, "end": {"line": 58, "column": 71}, "value": 3},
+          {"unit_name": "unpack", "start": {"line": 61, "column": 5}, "end": {"line": 74, "column": 87}, "value": 14},
+          {"unit_name": "__repr__", "start": {"line": 76, "column": 5}, "end": {"line": 77, "column": 100}, "value": 2},
+          {"unit_name": "__rich_console__", "start": {"line": 79, "column": 5}, "end": {"line": 123, "column": 48}, "value": 44},
+          {"unit_name": "__rich_measure__", "start": {"line": 125, "column": 5}, "end": {"line": 135, "column": 27}, "value": 11}
+        ]
+      },
+      "rich/traceback.py": {
+        "checksum": "295eb7f02ba9c7b5d4533f0051b6779e",
+        "language": "Python",
+        "loc": 548,
+        "profile": [93, 46, 132, 277],
+        "measurements": [
+          {"unit_name": "install", "start": {"line": 47, "column": 1}, "end": {"line": 174, "column": 30}, "value": 34},
+          {"unit_name": "excepthook", "start": {"line": 98, "column": 5}, "end": {"line": 122, "column": 10}, "value": 25},
+          {"unit_name": "ipy_excepthook_closure", "start": {"line": 124, "column": 5}, "end": {"line": 163, "column": 10}, "value": 12},
+          {"unit_name": "ipy_show_traceback", "start": {"line": 128, "column": 9}, "end": {"line": 132, "column": 51}, "value": 5},
+          {"unit_name": "ipy_display_traceback", "start": {"line": 134, "column": 9}, "end": {"line": 154, "column": 25}, "value": 15},
+          {"unit_name": "__init__", "start": {"line": 245, "column": 5}, "end": {"line": 296, "column": 70}, "value": 51},
+          {"unit_name": "from_exception", "start": {"line": 299, "column": 5}, "end": {"line": 369, "column": 10}, "value": 47},
+          {"unit_name": "extract", "start": {"line": 372, "column": 5}, "end": {"line": 527, "column": 21}, "value": 107},
+          {"unit_name": "safe_str", "start": {"line": 406, "column": 9}, "end": {"line": 411, "column": 50}, "value": 6},
+          {"unit_name": "get_locals", "start": {"line": 432, "column": 13}, "end": {"line": 444, "column": 37}, "value": 13},
+          {"unit_name": "__rich_console__", "start": {"line": 529, "column": 5}, "end": {"line": 605, "column": 22}, "value": 74},
+          {"unit_name": "_render_syntax_error", "start": {"line": 608, "column": 5}, "end": {"line": 628, "column": 32}, "value": 21},
+          {"unit_name": "_guess_lexer", "start": {"line": 631, "column": 5}, "end": {"line": 644, "column": 26}, "value": 11},
+          {"unit_name": "_render_stack", "start": {"line": 647, "column": 5}, "end": {"line": 768, "column": 22}, "value": 96},
+          {"unit_name": "read_code", "start": {"line": 651, "column": 9}, "end": {"line": 660, "column": 57}, "value": 3},
+          {"unit_name": "render_locals", "start": {"line": 662, "column": 9}, "end": {"line": 670, "column": 18}, "value": 9},
+          {"unit_name": "bar", "start": {"line": 775, "column": 5}, "end": {"line": 779, "column": 23}, "value": 5},
+          {"unit_name": "foo", "start": {"line": 781, "column": 5}, "end": {"line": 792, "column": 15}, "value": 12},
+          {"unit_name": "error", "start": {"line": 794, "column": 5}, "end": {"line": 795, "column": 15}, "value": 2}
+        ]
+      },
+      "rich/__main__.py": {
+        "checksum": "89e9abf65326b615186345d37af0c6d8",
+        "language": "Python",
+        "loc": 127,
+        "profile": [23, 0, 0, 104],
+        "measurements": [
+          {"unit_name": "__rich_console__", "start": {"line": 19, "column": 5}, "end": {"line": 31, "column": 33}, "value": 13},
+          {"unit_name": "__rich_measure__", "start": {"line": 33, "column": 5}, "end": {"line": 36, "column": 49}, "value": 4},
+          {"unit_name": "make_test_card", "start": {"line": 39, "column": 1}, "end": {"line": 157, "column": 65}, "value": 104},
+          {"unit_name": "comparison", "start": {"line": 90, "column": 5}, "end": {"line": 95, "column": 21}, "value": 6}
+        ]
+      },
+      "rich/_loop.py": {
+        "checksum": "cb02e73e65dd0d4e5fb7fa97608275e5",
+        "language": "Python",
+        "loc": 34,
+        "profile": [34, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "loop_first", "start": {"line": 6, "column": 1}, "end": {"line": 15, "column": 27}, "value": 10},
+          {"unit_name": "loop_last", "start": {"line": 18, "column": 1}, "end": {"line": 28, "column": 31}, "value": 11},
+          {"unit_name": "loop_first_last", "start": {"line": 31, "column": 1}, "end": {"line": 43, "column": 38}, "value": 13}
+        ]
+      },
+      "rich/rule.py": {
+        "checksum": "484656f720f1a8729c21c59708f1894e",
+        "language": "Python",
+        "loc": 81,
+        "profile": [11, 22, 48, 0],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 23, "column": 5}, "end": {"line": 44, "column": 27}, "value": 22},
+          {"unit_name": "__repr__", "start": {"line": 46, "column": 5}, "end": {"line": 47, "column": 60}, "value": 2},
+          {"unit_name": "__rich_console__", "start": {"line": 49, "column": 5}, "end": {"line": 103, "column": 24}, "value": 48},
+          {"unit_name": "_rule_line", "start": {"line": 105, "column": 5}, "end": {"line": 109, "column": 25}, "value": 5},
+          {"unit_name": "__rich_measure__", "start": {"line": 111, "column": 5}, "end": {"line": 114, "column": 33}, "value": 4}
+        ]
+      },
+      "rich/style.py": {
+        "checksum": "03ff10b4eaf03d1c03cb3413b4145bf3",
+        "language": "Python",
+        "loc": 491,
+        "profile": [133, 126, 161, 71],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 21, "column": 5}, "end": {"line": 22, "column": 31}, "value": 2},
+          {"unit_name": "__get__", "start": {"line": 24, "column": 5}, "end": {"line": 27, "column": 20}, "value": 4},
+          {"unit_name": "__init__", "start": {"line": 122, "column": 5}, "end": {"line": 196, "column": 84}, "value": 71},
+          {"unit_name": "_make_color", "start": {"line": 146, "column": 9}, "end": {"line": 147, "column": 77}, "value": 2},
+          {"unit_name": "null", "start": {"line": 199, "column": 5}, "end": {"line": 201, "column": 26}, "value": 3},
+          {"unit_name": "from_color", "start": {"line": 204, "column": 5}, "end": {"line": 225, "column": 21}, "value": 17},
+          {"unit_name": "from_meta", "start": {"line": 228, "column": 5}, "end": {"line": 246, "column": 21}, "value": 15},
+          {"unit_name": "on", "start": {"line": 249, "column": 5}, "end": {"line": 264, "column": 35}, "value": 5},
+          {"unit_name": "link_id", "start": {"line": 281, "column": 5}, "end": {"line": 283, "column": 29}, "value": 3},
+          {"unit_name": "__str__", "start": {"line": 285, "column": 5}, "end": {"line": 329, "column": 38}, "value": 45},
+          {"unit_name": "__bool__", "start": {"line": 331, "column": 5}, "end": {"line": 333, "column": 30}, "value": 3},
+          {"unit_name": "_make_ansi_codes", "start": {"line": 335, "column": 5}, "end": {"line": 376, "column": 26}, "value": 34},
+          {"unit_name": "normalize", "start": {"line": 380, "column": 5}, "end": {"line": 393, "column": 41}, "value": 6},
+          {"unit_name": "pick_first", "start": {"line": 396, "column": 5}, "end": {"line": 401, "column": 65}, "value": 6},
+          {"unit_name": "__rich_repr__", "start": {"line": 403, "column": 5}, "end": {"line": 420, "column": 36}, "value": 18},
+          {"unit_name": "__eq__", "start": {"line": 422, "column": 5}, "end": {"line": 425, "column": 51}, "value": 4},
+          {"unit_name": "__ne__", "start": {"line": 427, "column": 5}, "end": {"line": 430, "column": 51}, "value": 4},
+          {"unit_name": "__hash__", "start": {"line": 432, "column": 5}, "end": {"line": 445, "column": 26}, "value": 14},
+          {"unit_name": "color", "start": {"line": 448, "column": 5}, "end": {"line": 450, "column": 27}, "value": 3},
+          {"unit_name": "bgcolor", "start": {"line": 453, "column": 5}, "end": {"line": 455, "column": 29}, "value": 3},
+          {"unit_name": "link", "start": {"line": 458, "column": 5}, "end": {"line": 460, "column": 26}, "value": 3},
+          {"unit_name": "transparent_background", "start": {"line": 463, "column": 5}, "end": {"line": 465, "column": 63}, "value": 3},
+          {"unit_name": "background_style", "start": {"line": 468, "column": 5}, "end": {"line": 470, "column": 43}, "value": 3},
+          {"unit_name": "meta", "start": {"line": 473, "column": 5}, "end": {"line": 475, "column": 85}, "value": 3},
+          {"unit_name": "without_color", "start": {"line": 478, "column": 5}, "end": {"line": 494, "column": 21}, "value": 17},
+          {"unit_name": "parse", "start": {"line": 498, "column": 5}, "end": {"line": 561, "column": 21}, "value": 48},
+          {"unit_name": "get_html_style", "start": {"line": 564, "column": 5}, "end": {"line": 598, "column": 30}, "value": 34},
+          {"unit_name": "combine", "start": {"line": 601, "column": 5}, "end": {"line": 611, "column": 51}, "value": 4},
+          {"unit_name": "chain", "start": {"line": 614, "column": 5}, "end": {"line": 624, "column": 51}, "value": 4},
+          {"unit_name": "copy", "start": {"line": 626, "column": 5}, "end": {"line": 646, "column": 21}, "value": 17},
+          {"unit_name": "clear_meta_and_links", "start": {"line": 649, "column": 5}, "end": {"line": 669, "column": 21}, "value": 17},
+          {"unit_name": "update_link", "start": {"line": 671, "column": 5}, "end": {"line": 692, "column": 21}, "value": 15},
+          {"unit_name": "render", "start": {"line": 694, "column": 5}, "end": {"line": 718, "column": 24}, "value": 17},
+          {"unit_name": "test", "start": {"line": 720, "column": 5}, "end": {"line": 730, "column": 51}, "value": 4},
+          {"unit_name": "_add", "start": {"line": 733, "column": 5}, "end": {"line": 755, "column": 25}, "value": 23},
+          {"unit_name": "__add__", "start": {"line": 757, "column": 5}, "end": {"line": 759, "column": 80}, "value": 3},
+          {"unit_name": "__init__", "start": {"line": 770, "column": 5}, "end": {"line": 771, "column": 51}, "value": 2},
+          {"unit_name": "__repr__", "start": {"line": 773, "column": 5}, "end": {"line": 774, "column": 47}, "value": 2},
+          {"unit_name": "current", "start": {"line": 777, "column": 5}, "end": {"line": 779, "column": 31}, "value": 3},
+          {"unit_name": "push", "start": {"line": 781, "column": 5}, "end": {"line": 787, "column": 52}, "value": 3},
+          {"unit_name": "pop", "start": {"line": 789, "column": 5}, "end": {"line": 796, "column": 31}, "value": 4}
+        ]
+      },
+      "rich/themes.py": {
+        "checksum": "579b6ab8dacc395e63fff4800b1c6d3c",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "rich/layout.py": {
+        "checksum": "2c7521f63c7490aee97704e802b1a996",
+        "language": "Python",
+        "loc": 241,
+        "profile": [126, 115, 0, 0],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 56, "column": 5}, "end": {"line": 58, "column": 27}, "value": 3},
+          {"unit_name": "__rich_console__", "start": {"line": 60, "column": 5}, "end": {"line": 77, "column": 10}, "value": 18},
+          {"unit_name": "get_tree_icon", "start": {"line": 86, "column": 5}, "end": {"line": 87, "column": 55}, "value": 2},
+          {"unit_name": "divide", "start": {"line": 90, "column": 5}, "end": {"line": 93, "column": 214}, "value": 4},
+          {"unit_name": "get_tree_icon", "start": {"line": 106, "column": 5}, "end": {"line": 107, "column": 36}, "value": 2},
+          {"unit_name": "divide", "start": {"line": 109, "column": 5}, "end": {"line": 118, "column": 34}, "value": 10},
+          {"unit_name": "get_tree_icon", "start": {"line": 126, "column": 5}, "end": {"line": 127, "column": 39}, "value": 2},
+          {"unit_name": "divide", "start": {"line": 129, "column": 5}, "end": {"line": 138, "column": 35}, "value": 10},
+          {"unit_name": "__init__", "start": {"line": 156, "column": 5}, "end": {"line": 175, "column": 29}, "value": 20},
+          {"unit_name": "__rich_repr__", "start": {"line": 177, "column": 5}, "end": {"line": 181, "column": 37}, "value": 5},
+          {"unit_name": "renderable", "start": {"line": 184, "column": 5}, "end": {"line": 186, "column": 60}, "value": 3},
+          {"unit_name": "children", "start": {"line": 189, "column": 5}, "end": {"line": 191, "column": 68}, "value": 3},
+          {"unit_name": "map", "start": {"line": 194, "column": 5}, "end": {"line": 196, "column": 32}, "value": 3},
+          {"unit_name": "get", "start": {"line": 198, "column": 5}, "end": {"line": 214, "column": 20}, "value": 10},
+          {"unit_name": "__getitem__", "start": {"line": 216, "column": 5}, "end": {"line": 220, "column": 22}, "value": 5},
+          {"unit_name": "tree", "start": {"line": 223, "column": 5}, "end": {"line": 259, "column": 20}, "value": 15},
+          {"unit_name": "summary", "start": {"line": 229, "column": 9}, "end": {"line": 239, "column": 28}, "value": 9},
+          {"unit_name": "recurse", "start": {"line": 248, "column": 9}, "end": {"line": 256, "column": 18}, "value": 9},
+          {"unit_name": "split", "start": {"line": 261, "column": 5}, "end": {"line": 284, "column": 37}, "value": 19},
+          {"unit_name": "add_split", "start": {"line": 286, "column": 5}, "end": {"line": 297, "column": 40}, "value": 7},
+          {"unit_name": "split_row", "start": {"line": 299, "column": 5}, "end": {"line": 305, "column": 45}, "value": 3},
+          {"unit_name": "split_column", "start": {"line": 307, "column": 5}, "end": {"line": 313, "column": 48}, "value": 3},
+          {"unit_name": "unsplit", "start": {"line": 315, "column": 5}, "end": {"line": 317, "column": 30}, "value": 3},
+          {"unit_name": "update", "start": {"line": 319, "column": 5}, "end": {"line": 326, "column": 42}, "value": 4},
+          {"unit_name": "refresh_screen", "start": {"line": 328, "column": 5}, "end": {"line": 343, "column": 53}, "value": 11},
+          {"unit_name": "_make_region_map", "start": {"line": 345, "column": 5}, "end": {"line": 364, "column": 26}, "value": 19},
+          {"unit_name": "render", "start": {"line": 366, "column": 5}, "end": {"line": 393, "column": 26}, "value": 19},
+          {"unit_name": "__rich_console__", "start": {"line": 395, "column": 5}, "end": {"line": 415, "column": 31}, "value": 20}
+        ]
+      },
+      "rich/_wrap.py": {
+        "checksum": "440510bfdf54e59b40ae3d34537ea429",
+        "language": "Python",
+        "loc": 40,
+        "profile": [9, 0, 31, 0],
+        "measurements": [
+          {"unit_name": "words", "start": {"line": 12, "column": 1}, "end": {"line": 23, "column": 46}, "value": 9},
+          {"unit_name": "divide_line", "start": {"line": 26, "column": 1}, "end": {"line": 78, "column": 27}, "value": 31}
+        ]
+      },
+      "rich/spinner.py": {
+        "checksum": "2ad847c3891bd2dcad90770617c17425",
+        "language": "Python",
+        "loc": 69,
+        "profile": [23, 46, 0, 0],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 26, "column": 5}, "end": {"line": 48, "column": 33}, "value": 23},
+          {"unit_name": "__rich_console__", "start": {"line": 50, "column": 5}, "end": {"line": 53, "column": 46}, "value": 4},
+          {"unit_name": "__rich_measure__", "start": {"line": 55, "column": 5}, "end": {"line": 59, "column": 55}, "value": 5},
+          {"unit_name": "render", "start": {"line": 61, "column": 5}, "end": {"line": 93, "column": 25}, "value": 23},
+          {"unit_name": "update", "start": {"line": 95, "column": 5}, "end": {"line": 114, "column": 39}, "value": 14}
+        ]
+      },
+      "rich/screen.py": {
+        "checksum": "b2538a1a13ae87e89167b825668c2c07",
+        "language": "Python",
+        "loc": 25,
+        "profile": [25, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 28, "column": 5}, "end": {"line": 38, "column": 49}, "value": 10},
+          {"unit_name": "__rich_console__", "start": {"line": 40, "column": 5}, "end": {"line": 54, "column": 31}, "value": 15}
+        ]
+      },
+      "rich/control.py": {
+        "checksum": "67c9b885a3c7cfb16a52e96097b734a3",
+        "language": "Python",
+        "loc": 81,
+        "profile": [81, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 64, "column": 5}, "end": {"line": 72, "column": 68}, "value": 9},
+          {"unit_name": "bell", "start": {"line": 75, "column": 5}, "end": {"line": 77, "column": 37}, "value": 3},
+          {"unit_name": "home", "start": {"line": 80, "column": 5}, "end": {"line": 82, "column": 37}, "value": 3},
+          {"unit_name": "move", "start": {"line": 85, "column": 5}, "end": {"line": 111, "column": 23}, "value": 5},
+          {"unit_name": "get_codes", "start": {"line": 97, "column": 9}, "end": {"line": 108, "column": 18}, "value": 12},
+          {"unit_name": "move_to_column", "start": {"line": 114, "column": 5}, "end": {"line": 135, "column": 10}, "value": 13},
+          {"unit_name": "move_to", "start": {"line": 138, "column": 5}, "end": {"line": 148, "column": 55}, "value": 3},
+          {"unit_name": "clear", "start": {"line": 151, "column": 5}, "end": {"line": 153, "column": 38}, "value": 3},
+          {"unit_name": "show_cursor", "start": {"line": 156, "column": 5}, "end": {"line": 158, "column": 81}, "value": 3},
+          {"unit_name": "alt_screen", "start": {"line": 161, "column": 5}, "end": {"line": 166, "column": 55}, "value": 6},
+          {"unit_name": "title", "start": {"line": 169, "column": 5}, "end": {"line": 175, "column": 58}, "value": 3},
+          {"unit_name": "__str__", "start": {"line": 177, "column": 5}, "end": {"line": 178, "column": 33}, "value": 2},
+          {"unit_name": "__rich_console__", "start": {"line": 180, "column": 5}, "end": {"line": 184, "column": 31}, "value": 5},
+          {"unit_name": "strip_control_codes", "start": {"line": 187, "column": 1}, "end": {"line": 198, "column": 44}, "value": 5},
+          {"unit_name": "escape_control_codes", "start": {"line": 201, "column": 1}, "end": {"line": 214, "column": 44}, "value": 6}
+        ]
+      },
+      "rich/_ratio.py": {
+        "checksum": "423d344e6a8c73f4af7a6cf6e9f41964",
+        "language": "Python",
+        "loc": 74,
+        "profile": [0, 74, 0, 0],
+        "measurements": [
+          {"unit_name": "ratio_resolve", "start": {"line": 20, "column": 1}, "end": {"line": 78, "column": 34}, "value": 30},
+          {"unit_name": "ratio_reduce", "start": {"line": 81, "column": 1}, "end": {"line": 110, "column": 18}, "value": 20},
+          {"unit_name": "ratio_distribute", "start": {"line": 113, "column": 1}, "end": {"line": 146, "column": 29}, "value": 24}
+        ]
+      },
+      "rich/_log_render.py": {
+        "checksum": "bba7bb1feefb0c5933f2fc1f49095d9c",
+        "language": "Python",
+        "loc": 68,
+        "profile": [0, 16, 52, 0],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 15, "column": 5}, "end": {"line": 30, "column": 47}, "value": 16},
+          {"unit_name": "__call__", "start": {"line": 32, "column": 5}, "end": {"line": 86, "column": 22}, "value": 52}
+        ]
+      },
+      "rich/status.py": {
+        "checksum": "d89f3ca447cfa4ee5ad60921701f0b74",
+        "language": "Python",
+        "loc": 67,
+        "profile": [23, 44, 0, 0],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 23, "column": 5}, "end": {"line": 42, "column": 10}, "value": 20},
+          {"unit_name": "renderable", "start": {"line": 45, "column": 5}, "end": {"line": 46, "column": 29}, "value": 2},
+          {"unit_name": "console", "start": {"line": 49, "column": 5}, "end": {"line": 51, "column": 34}, "value": 3},
+          {"unit_name": "update", "start": {"line": 53, "column": 5}, "end": {"line": 83, "column": 14}, "value": 24},
+          {"unit_name": "start", "start": {"line": 85, "column": 5}, "end": {"line": 87, "column": 27}, "value": 3},
+          {"unit_name": "stop", "start": {"line": 89, "column": 5}, "end": {"line": 91, "column": 26}, "value": 3},
+          {"unit_name": "__rich__", "start": {"line": 93, "column": 5}, "end": {"line": 94, "column": 31}, "value": 2},
+          {"unit_name": "__enter__", "start": {"line": 96, "column": 5}, "end": {"line": 98, "column": 20}, "value": 3},
+          {"unit_name": "__exit__", "start": {"line": 100, "column": 5}, "end": {"line": 106, "column": 20}, "value": 7}
+        ]
+      },
+      "rich/file_proxy.py": {
+        "checksum": "eedd79e924fc4c14dd6f3df7d8f460e3",
+        "language": "Python",
+        "loc": 38,
+        "profile": [17, 21, 0, 0],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 14, "column": 5}, "end": {"line": 18, "column": 44}, "value": 5},
+          {"unit_name": "rich_proxied_file", "start": {"line": 21, "column": 5}, "end": {"line": 23, "column": 27}, "value": 3},
+          {"unit_name": "__getattr__", "start": {"line": 25, "column": 5}, "end": {"line": 26, "column": 42}, "value": 2},
+          {"unit_name": "write", "start": {"line": 28, "column": 5}, "end": {"line": 48, "column": 25}, "value": 21},
+          {"unit_name": "flush", "start": {"line": 50, "column": 5}, "end": {"line": 54, "column": 29}, "value": 5},
+          {"unit_name": "fileno", "start": {"line": 56, "column": 5}, "end": {"line": 57, "column": 36}, "value": 2}
+        ]
+      },
+      "rich/abc.py": {
+        "checksum": "7c20da991717bd7fa3ce71998c734df2",
+        "language": "Python",
+        "loc": 3,
+        "profile": [3, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "__subclasshook__", "start": {"line": 16, "column": 5}, "end": {"line": 18, "column": 80}, "value": 3}
+        ]
+      },
+      "rich/scope.py": {
+        "checksum": "4e2eddbceacc199d58ca606cb793a3da",
+        "language": "Python",
+        "loc": 49,
+        "profile": [13, 0, 36, 0],
+        "measurements": [
+          {"unit_name": "render_scope", "start": {"line": 14, "column": 1}, "end": {"line": 67, "column": 6}, "value": 36},
+          {"unit_name": "sort_items", "start": {"line": 41, "column": 5}, "end": {"line": 44, "column": 55}, "value": 4},
+          {"unit_name": "test", "start": {"line": 75, "column": 5}, "end": {"line": 83, "column": 74}, "value": 9}
+        ]
+      },
+      "examples/highlighter.py": {
+        "checksum": "8def61412c9000fa8d1d1249f26bb204",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "examples/group2.py": {
+        "checksum": "8403c3653827a851b7efd892431d4e44",
+        "language": "Python",
+        "loc": 3,
+        "profile": [3, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "get_panels", "start": {"line": 7, "column": 1}, "end": {"line": 9, "column": 41}, "value": 3}
+        ]
+      },
+      "examples/overflow.py": {
+        "checksum": "56a651478c386d2953c96e219bfff9fe",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "examples/group.py": {
+        "checksum": "3f716345401241e11b0f3a289eef1f8d",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "examples/bars.py": {
+        "checksum": "b4400f7e1d60b382d8b8b148f045b75a",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "examples/repr.py": {
+        "checksum": "77a19827ca29e25d0b718545de155cf4",
+        "language": "Python",
+        "loc": 5,
+        "profile": [5, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "__init__", "start": {"line": 6, "column": 5}, "end": {"line": 10, "column": 31}, "value": 5}
+        ]
+      },
+      "examples/columns.py": {
+        "checksum": "55bd76df98a4f63b232518a8296e9784",
+        "language": "Python",
+        "loc": 5,
+        "profile": [5, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "get_content", "start": {"line": 15, "column": 1}, "end": {"line": 19, "column": 47}, "value": 5}
+        ]
+      },
+      "examples/save_table_svg.py": {
+        "checksum": "0e42161a17482a4d609b2ee2db1db453",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "examples/downloader.py": {
+        "checksum": "21bc7946be6de002ffc7d0663b0d5b10",
+        "language": "Python",
+        "loc": 24,
+        "profile": [24, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "handle_sigint", "start": {"line": 40, "column": 1}, "end": {"line": 41, "column": 21}, "value": 2},
+          {"unit_name": "copy_url", "start": {"line": 47, "column": 1}, "end": {"line": 60, "column": 47}, "value": 13},
+          {"unit_name": "download", "start": {"line": 63, "column": 1}, "end": {"line": 72, "column": 63}, "value": 9}
+        ]
+      },
+      "examples/export.py": {
+        "checksum": "e8f4bc6c2597bd21a49162c8aca7ce99",
+        "language": "Python",
+        "loc": 10,
+        "profile": [10, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "print_table", "start": {"line": 11, "column": 1}, "end": {"line": 23, "column": 25}, "value": 10}
+        ]
+      },
+      "examples/tree.py": {
+        "checksum": "6f7678814a8b3bd184cace27e8ecf97f",
+        "language": "Python",
+        "loc": 25,
+        "profile": [0, 25, 0, 0],
+        "measurements": [
+          {"unit_name": "walk_directory", "start": {"line": 16, "column": 1}, "end": {"line": 42, "column": 49}, "value": 25}
+        ]
+      },
+      "examples/print_calendar.py": {
+        "checksum": "c87715379d9b12ff214e1cb084f2ed01",
+        "language": "Python",
+        "loc": 36,
+        "profile": [0, 0, 36, 0],
+        "measurements": [
+          {"unit_name": "print_calendar", "start": {"line": 20, "column": 1}, "end": {"line": 62, "column": 28}, "value": 36}
+        ]
+      },
+      "examples/cp_progress.py": {
+        "checksum": "1659bfd2f8b2b16282702f7e0ee3ecf9",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "examples/link.py": {
+        "checksum": "c70a6539841b14723cd8ca269d1cd3e8",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "examples/attrs.py": {
+        "checksum": "af9a7b0f4220a9c8f47371d052fceb49",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "examples/spinners.py": {
+        "checksum": "1a2c062b8f519b6c61196956e39f96bb",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "examples/table.py": {
+        "checksum": "2904c0ea8bf3ef1556ec11e80d5aa8eb",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "examples/listdir.py": {
+        "checksum": "93f6b76c4a350f61dffbdaf17a165cd2",
+        "language": "Python",
+        "loc": 6,
+        "profile": [6, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "make_filename_text", "start": {"line": 22, "column": 5}, "end": {"line": 27, "column": 20}, "value": 6}
+        ]
+      },
+      "examples/log.py": {
+        "checksum": "d8a0e39466dd3504d4f341feb21d69f1",
+        "language": "Python",
+        "loc": 21,
+        "profile": [0, 21, 0, 0],
+        "measurements": [
+          {"unit_name": "test_locals", "start": {"line": 53, "column": 1}, "end": {"line": 74, "column": 6}, "value": 21}
+        ]
+      },
+      "examples/exception.py": {
+        "checksum": "517d67aeb42c1efbf71c34da59aee360",
+        "language": "Python",
+        "loc": 14,
+        "profile": [14, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "divide_by", "start": {"line": 11, "column": 1}, "end": {"line": 15, "column": 18}, "value": 4},
+          {"unit_name": "divide_all", "start": {"line": 18, "column": 1}, "end": {"line": 28, "column": 42}, "value": 10}
+        ]
+      },
+      "examples/fullscreen.py": {
+        "checksum": "87e8f6df7c3f8ad9a9d1cde21929c08c",
+        "language": "Python",
+        "loc": 57,
+        "profile": [26, 0, 31, 0],
+        "measurements": [
+          {"unit_name": "make_layout", "start": {"line": 20, "column": 1}, "end": {"line": 34, "column": 18}, "value": 14},
+          {"unit_name": "make_sponsor_message", "start": {"line": 37, "column": 1}, "end": {"line": 69, "column": 25}, "value": 31},
+          {"unit_name": "__rich__", "start": {"line": 75, "column": 5}, "end": {"line": 83, "column": 50}, "value": 9},
+          {"unit_name": "make_syntax", "start": {"line": 86, "column": 1}, "end": {"line": 88, "column": 64}, "value": 3}
+        ]
+      },
+      "examples/dynamic_progress.py": {
+        "checksum": "e6943bf3880fdb55cc7a8e777bb9b347",
+        "language": "Python",
+        "loc": 11,
+        "profile": [11, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "run_steps", "start": {"line": 23, "column": 1}, "end": {"line": 41, "column": 64}, "value": 11}
+        ]
+      },
+      "examples/table_movie.py": {
+        "checksum": "cfb97f571dfa871f22d46f9ee00f3bca",
+        "language": "Python",
+        "loc": 3,
+        "profile": [3, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "beat", "start": {"line": 63, "column": 1}, "end": {"line": 65, "column": 35}, "value": 3}
+        ]
+      },
+      "examples/recursive_error.py": {
+        "checksum": "205de6b5aaf5538f798a2f05303c6bc9",
+        "language": "Python",
+        "loc": 4,
+        "profile": [4, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "foo", "start": {"line": 12, "column": 1}, "end": {"line": 13, "column": 18}, "value": 2},
+          {"unit_name": "bar", "start": {"line": 16, "column": 1}, "end": {"line": 17, "column": 18}, "value": 2}
+        ]
+      },
+      "examples/rainbow.py": {
+        "checksum": "b0bc6fe93cc12ffe3e60217fc169779a",
+        "language": "Python",
+        "loc": 3,
+        "profile": [3, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "highlight", "start": {"line": 14, "column": 5}, "end": {"line": 16, "column": 73}, "value": 3}
+        ]
+      },
+      "examples/justify.py": {
+        "checksum": "3c6677fb2e694d611566e1a774374c7e",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "examples/padding.py": {
+        "checksum": "c4065d31edb1ae194268a8c3375f6019",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "examples/justify2.py": {
+        "checksum": "5cdcb5104054511be0cd36280d247701",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "examples/layout.py": {
+        "checksum": "54b5e34fc8be927543fe08964e1ae154",
+        "language": "Python",
+        "loc": 2,
+        "profile": [2, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "__rich__", "start": {"line": 44, "column": 5}, "end": {"line": 45, "column": 84}, "value": 2}
+        ]
+      },
+      "examples/screen.py": {
+        "checksum": "5499d3c456b7aa617b298804e6b378ec",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "examples/jobs.py": {
+        "checksum": "91ba3c5ddd46bf0d72b0673b50d8778f",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "examples/live_progress.py": {
+        "checksum": "06e62ed1e6dbf42f23c50cdb26148f23",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "examples/suppress.py": {
+        "checksum": "8a071961e903c4275deab9b7ff0928a7",
+        "language": "Python",
+        "loc": 5,
+        "profile": [5, 0, 0, 0],
+        "measurements": [
+          {"unit_name": "hello", "start": {"line": 15, "column": 1}, "end": {"line": 19, "column": 37}, "value": 5}
+        ]
+      },
+      "examples/file_progress.py": {
+        "checksum": "a02918f0971dff6ad977065077b5b57a",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "examples/status.py": {
+        "checksum": "314dcf99a45fa0f38e0989b645c56d7d",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "examples/top_lite_simulator.py": {
+        "checksum": "0e4390fb217f95190b3cbd38f77002a6",
+        "language": "Python",
+        "loc": 39,
+        "profile": [19, 20, 0, 0],
+        "measurements": [
+          {"unit_name": "memory_str", "start": {"line": 30, "column": 5}, "end": {"line": 35, "column": 32}, "value": 6},
+          {"unit_name": "time_str", "start": {"line": 38, "column": 5}, "end": {"line": 39, "column": 62}, "value": 2},
+          {"unit_name": "generate_process", "start": {"line": 42, "column": 1}, "end": {"line": 52, "column": 6}, "value": 11},
+          {"unit_name": "create_process_table", "start": {"line": 55, "column": 1}, "end": {"line": 76, "column": 17}, "value": 20}
+        ]
+      },
+      "tools/profile_divide.py": {
+        "checksum": "e9c297836ed6f6d69ebc4c171b2d13a0",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "tools/make_terminal_widths.py": {
+        "checksum": "b8747abb250cb9387a3f8b4698ea77cc",
+        "language": "Python",
+        "loc": 55,
+        "profile": [15, 40, 0, 0],
+        "measurements": [
+          {"unit_name": "make_widths_table", "start": {"line": 13, "column": 1}, "end": {"line": 39, "column": 17}, "value": 23},
+          {"unit_name": "get_cell_size", "start": {"line": 42, "column": 1}, "end": {"line": 58, "column": 13}, "value": 17},
+          {"unit_name": "test", "start": {"line": 61, "column": 1}, "end": {"line": 70, "column": 18}, "value": 10},
+          {"unit_name": "run", "start": {"line": 73, "column": 1}, "end": {"line": 77, "column": 66}, "value": 5}
+        ]
+      },
+      "tools/make_emoji.py": {
+        "checksum": "4dd739c392e912a980ac726d6fe2a38d",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "tools/profile_pretty.py": {
+        "checksum": "f999ef59751b2fe47004928f2a86180f",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      },
+      "tools/stress_test_pretty.py": {
+        "checksum": "caa4eaeb705ecfef0466726eef88a624",
+        "language": "Python",
+        "loc": 0,
+        "profile": [0, 0, 0, 0],
+        "measurements": [
+        ]
+      }
+    }
+  }
+}
